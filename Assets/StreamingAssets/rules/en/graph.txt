@@ -1,0 +1,39 @@
+# Check for infinitive
+# General rule format: pattern -> action
+#
+# obj and pur
+#
+#r1(x,y);[r1=agt,'x=V,'x.@present] -> x.@continuous,!x.@simple # agt relation for present, make it continuous
+r1(x,y) !r2(z,x);['x=N,'x.@ddef] -> x.@nodef,!x.@ddef # no incoming relation, mark @nodef
+r1(x,y) r2(y,z);[r1=obj|pur,r2=agt,'x=V,'y=V] -> error # He wanted to go -- go cannot have agentb
+r1(x,y) !r2(y,z);[r1=obj|pur,r2=agt,'x=V,'y=V,y.@quote] -> pass # He told him, "Sleep" -- Sleep does not have agent, but is not infinitive
+r1(x,y);['x=V,y.@yesterday] -> x.@past,!x.@present,!x.@future # if yesterday is present, convert it to past
+r1(x,y);['x=V,y.@tomorrow] -> x.@future,!x.@present,!x.@past # if tomorrow is present, convert it to future
+r1(x,y) !r2(y,z);[r1=obj|pur,r2=agt,'x=V,'y=V,!'x.@mark_inf_none,!'x.@mark_inf_gerund] -> y.@infinitive # I want to go
+r1(x,y) !r2(y,z);[r1=obj,r2=agt,'x=V,'y=V,'x.@mark_inf_none] -> y.@infinitiven # I let him go
+r1(x,y) !r2(y,z);[r1=obj|frm,r2=agt,'x=V,'y=V,'x.@mark_inf_gerund] -> y.@infinitiveg # I stopped going, I saved him from dying
+#
+# rsn
+#
+# r1(x,y) !r2(y,z);[r1=rsn,r2=agt,'x=V,'y=V] -> error # rsn always takes a sentential object and never an infinitive one
+r1(x,y) !r2(y,z);[r1=rsn,r2=agt,'x=V,'y=V] -> y.@infinitiveg
+# ins
+r(x,y);[r=ins,'x=V,'y=N,'y.@vehicle] -> y.@by # go by car
+#
+# cnt and tim
+#
+r1(x,y) !r2(y,z);[r1=cnt|tim,r2=agt,'x=V,'y=V] -> y.@infinitiveg  # I thought about going, I learned about writing, I saw him when walking; but -- I thought that he had gone, I saw that he would go
+#
+# Agreement
+# 
+#r(x,y);[r=agt,'x=V,'y=N] -> y<x.@masculine,y<x.@feminine|@pl|@singular|@1|@2|@3
+#
+# Handling quantities
+#
+r(x,y);[r=qua,'x=N] -> x.@pl,!x.@singular # By default, plural if quantity is specified
+r1(x,y);[r1=qua,'x=N,'y=Num,'y='1] -> x.@singular,!x.@pl,x.@generic,!x.@ddef # If qua==1, singular
+r1(x,y);[r1=qua,'x=V] -> y.@times_pl
+r1(x,y);[r1=qua,'x=V,'y=Num,'y='1] -> !y.@times_pl,y.@times_si
+#
+# Handling incompletes
+#

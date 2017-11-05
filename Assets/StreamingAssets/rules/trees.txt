@@ -1,0 +1,14 @@
+V head-first
+N head-first
+J head-first
+A head-first
+P head-last # 里， 上， 下 etc.
+Part head-last
+C head-first
+& head-first
+I head-first
+D head-first
+M head-first
+X head-first
+Class head-first
+Num head-first

@@ -1,0 +1,38 @@
+M0 -> 
+M1_sheep -> PLR:0
+M2_cat -> PLR:0>s
+M3_candy -> PLR:y>ies
+M4_lunch -> PLR:0>es
+M5 -> PLR:f>ves
+M6 -> PLR:fe>ves
+M7 -> PLR:man>men
+M8 -> PLR:ouse>ice
+M9 -> PLR:person>people
+M10 -> PLR:tooth>teeth
+M11 -> PLR:is>es
+M12 -> PLR:2>ices
+M13 -> PLR:2>a
+M14 -> PLR:us>i
+M15 -> PLR:0>'s
+M16_work -> PAS:0>ed;PTP:0>ed;3PS&PRS:0>s;GER:0>ing
+M17_use -> PAS:0>d;PTP:0>d;3PS&PRS:0>s;GER:e>ing
+M18_try -> PAS:y>ied;PTP:y>ied;GER:0>ing;3PS&PRS:y>ies
+M19_kiss -> PAS:0>ed;PTP:0>ed;3PS&PRS:0>es;GER:0>ing
+M20_trek -> PAS:0>ked;PTP:0>ked;3PS&PRS:0>s;GER:0>king
+M21 -> PAS:0;PTP:0;GER:0>ing;3PS&PRS:0>s
+M22_fall -> GER:0>ing;3PS&PRS:0>s	# Irregular PAS, PTP - to be specified in the dictionary
+M23_get -> 3PS&PRS:0>s;GER:0>ting
+M24_stop -> PAS:0>ped;PTP:0>ped;3PS&PRS:0>s;GER:0>ping
+M27 -> PTP:0>ed;3PS&PRS:0>s;GER:0>ing   # Irregular PAS - to be specified in the dictionary
+M30_kind -> CMP:0>er;SUP:0>est	##kind, kinder, kindest
+M31_funny -> CMP:y>ier;SUP:y>iest ##funny, funnier, funniest
+M32_blue -> CMP:e>er;SUP:e>est   ##blue, bluer, bluest
+M33_sad -> CMP:d>dder;SUP:d>ddest ##sad, sadder, saddest
+M34_hot -> CMP:t>tter;SUP:t>ttest ##hot, hotter, hottest
+M35_big -> CMP:g>gger;SUP:g>ggest ##big, bigger, biggest
+M36_thin -> CMP:n>nner;SUP:n>nnest ##thin, thinner, thinnest
+M37_jealous -> CMP:^>more;SUP:^>most ##jealous
+M38_split -> PAS:0>ted;PTP:0>ted;3PS&PRS:0>s;GER:0>ting
+M39_make -> PAS:ke>de;PTP:ke>de;3PS&PRS:0>s;GER:e>ing
+M40_shut -> PAS:t>t;PTP:t>t;3PS&PRS:0>s;GER:0>ting
+M41_hug -> PAS:0>ged;PTP:0>ged;3PS&PRS:0>s;GER:0>ging

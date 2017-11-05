@@ -1,0 +1,29 @@
+the which -> (the) which
+the how -> (the) how
+the how many -> (the) how many
+because of what -> why
+to there -> there
+to here -> here
+to the home -> home
+in the home -> at home
+the home -> home
+from the home -> from home
+to the somewhere -> somewhere
+to the nowhere -> nowhere
+in here -> here
+in there -> there
+in the (neutral) last year -> last year
+in the (neutral) next year -> next year
+in the (neutral) last month -> last month
+in the (neutral) next month -> next month
+in the (neutral) last week -> last week
+in the (neutral) next week -> next week
+and is -> and
+and are -> and
+and am -> and
+and was -> and
+and were -> and
+and will -> and
+a (the) other -> another
+a (neutral) other -> another
+COMMA -> ,

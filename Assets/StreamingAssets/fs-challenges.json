@@ -1,0 +1,5050 @@
+[
+    {
+        "filters": [], 
+        "index": 0, 
+        "level": 0, 
+        "mode": "none", 
+        "n_sentences": 0, 
+        "responses": [], 
+        "sentences": [], 
+        "unl": [], 
+        "wordslearnt": [
+            "1002484322", 
+            "1006632511"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 1, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Hello, monkey"
+        ], 
+        "unl": [
+            "voc(1006632511,1002484322.@nodef)"
+        ], 
+        "wordslearnt": [
+            "00.@1", 
+            "2001824736"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 2, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I like the monkey."
+        ], 
+        "unl": [
+            "agt(2001824736,00.@1);obj(2001824736,1002484322.@def)"
+        ], 
+        "wordslearnt": [
+            "1007742704"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 3, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I like the berry."
+        ], 
+        "unl": [
+            "agt(2001824736,00.@1);obj(2001824736,1007742704.@def)"
+        ], 
+        "wordslearnt": [
+            "00.@2"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 4, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I like you."
+        ], 
+        "unl": [
+            "agt(2001824736,00.@1);obj(2001824736,00.@2)"
+        ], 
+        "wordslearnt": [
+            "1013134947", 
+            "2001825237"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 5, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I want the fruit."
+        ], 
+        "unl": [
+            "agt(2001825237,00.@1);obj(2001825237,1013134947.@def)"
+        ], 
+        "wordslearnt": [
+            "1001503061", 
+            "3000381097"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 6, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The bird wants the red berry."
+        ], 
+        "unl": [
+            "agt(2001825237,1001503061);obj(2001825237,1007742704.@def);mod(1007742704.@def,3000381097)"
+        ], 
+        "wordslearnt": [
+            "2002316868"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 7, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Give me that fruit."
+        ], 
+        "unl": [
+            "obj(2002316868,1013134947.@distal);gol(2002316868,00.@1)"
+        ], 
+        "wordslearnt": [
+            "00.@proximal", 
+            "2002604760"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 8, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "This is a red fruit."
+        ], 
+        "unl": [
+            "agt(2002604760,00.@proximal);obj(2002604760,1013134947.@indef);mod(1013134947.@indef,3000381097)"
+        ], 
+        "wordslearnt": [
+            "2002203362", 
+            "3000385756"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 9, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The bird has the yellow berry."
+        ], 
+        "unl": [
+            "agt(2002203362,1001503061.@def);obj(2002203362,1007742704.@def);mod(1007742704.@def,3000385756)"
+        ], 
+        "wordslearnt": [
+            "00.@3.@female", 
+            "2001775164"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 10, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "She loves the berry."
+        ], 
+        "unl": [
+            "agt(2001775164,00.@3.@female);obj(2001775164,1007742704.@def)"
+        ], 
+        "wordslearnt": [
+            "3000375969"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 11, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I have the green berry and the yellow berry."
+        ], 
+        "unl": [
+            "agt(2002203362,00.@1);obj(2002203362,1007742704:1.@def);mod(1007742704:1.@def,3000375969);and(1007742704:1.@def,1007742704:2.@def);mod(1007742704:2.@def,3000385756)"
+        ], 
+        "wordslearnt": [
+            "2002194286", 
+            "3002396720"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 12, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "This tastes yummy."
+        ], 
+        "unl": [
+            "agt(2002194286,00.@proximal);man(2002194286,3002396720)"
+        ], 
+        "wordslearnt": [
+            "1007739125"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 13, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The apple is a red fruit."
+        ], 
+        "unl": [
+            "agt(2002604760,1007739125.@def);obj(2002604760,1013134947.@indef);mod(1013134947.@indef,3000381097)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 14, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "This red fruit isn't a berry."
+        ], 
+        "unl": [
+            "agt(2002604760.@not,1013134947.@proximal);mod(1013134947.@proximal,3000381097);obj(2002604760.@not,1007742704.@indef)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 15, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I like that yellow berry."
+        ], 
+        "unl": [
+            "agt(2001824736,00.@1);obj(2001824736,1007742704.@distal);mod(1007742704.@distal,3000385756)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 16, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "This yellow bird has a red berry."
+        ], 
+        "unl": [
+            "agt(2002203362,1001503061.@proximal);mod(1001503061.@proximal,3000385756);obj(2002203362,1007742704.@indef);mod(1007742704.@indef,3000381097)"
+        ], 
+        "wordslearnt": [
+            "1010112591"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 17, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "This red bird isn't my friend."
+        ], 
+        "unl": [
+            "agt(2002604760.@not,1001503061.@proximal);mod(1001503061.@proximal,3000381097);obj(2002604760.@not,1010112591);pos(1010112591,00.@1)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 18, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "My friend loves that green fruit."
+        ], 
+        "unl": [
+            "agt(2001775164,1010112591);pos(1010112591,00.@1);obj(2001775164,1013134947.@distal);mod(1013134947.@distal,3000375969)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not"
+        ], 
+        "index": 19, 
+        "level": 1, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I want this red fruit and that yellow berry."
+        ], 
+        "unl": [
+            "agt(2001825237,00.@1);obj(2001825237,1013134947.@proximal);mod(1013134947.@proximal,3000381097);and(1013134947.@proximal,1007742704.@distal);mod(1007742704.@distal,3000385756)"
+        ], 
+        "wordslearnt": [
+            "3001382086"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 1, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I love big berries."
+        ], 
+        "unl": [
+            "agt(2001775164,00.@1);obj(2001775164,1007742704.@pl);mod(1007742704.@pl,3001382086)"
+        ], 
+        "wordslearnt": [
+            "1009316454"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 2, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I have 2 friends on this island."
+        ], 
+        "unl": [
+            "agt(2002203362,00.@1);obj(2002203362,1010112591.@pl);qua(1010112591.@pl,2.@number);plc(2002203362,1009316454.@proximal.@on)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 3, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "These are my friends."
+        ], 
+        "unl": [
+            "agt(2002604760,00.@proximal.@pl);obj(2002604760,1010112591.@pl);pos(1010112591.@pl,00.@1)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 4, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I love monkeys."
+        ], 
+        "unl": [
+            "agt(2001775164,00.@1);obj(2001775164,1002484322.@pl)"
+        ], 
+        "wordslearnt": [
+            "1012352287", 
+            "2001168468"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 5, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Monkeys eat bananas."
+        ], 
+        "unl": [
+            "agt(2001168468,1002484322.@pl);obj(2001168468,1012352287.@pl)"
+        ], 
+        "wordslearnt": [
+            "1002129604", 
+            "1007649854"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 6, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "This tiger loves bananas and meat."
+        ], 
+        "unl": [
+            "agt(2001775164,1002129604.@proximal);obj(2001775164,1012352287.@pl);and(1012352287.@pl,1007649854)"
+        ], 
+        "wordslearnt": [
+            "1008509111", 
+            "2002649830"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 7, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Tigers live in the jungle."
+        ], 
+        "unl": [
+            "agt(2002649830,1002129604.@pl);plc(2002649830,1008509111.@def)"
+        ], 
+        "wordslearnt": [
+            "00.@3.@pl", 
+            "3001269073", 
+            "4000049433"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 8, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They are hungry now."
+        ], 
+        "unl": [
+            "agt(2002604760,00.@3.@pl);obj(2002604760,3001269073);tim(2002604760,4000049433)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 9, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They don't have berries."
+        ], 
+        "unl": [
+            "agt(2002203362.@not,00.@3.@pl);obj(2002203362.@not,1007742704.@pl)"
+        ], 
+        "wordslearnt": [
+            "2000594621"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 10, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They know that you have the fruits."
+        ], 
+        "unl": [
+            "agt(2000594621,00.@3.@pl);cnt(2000594621,2002203362);agt(2002203362,00.@2);obj(2002203362,1013134947.@pl.@def)"
+        ], 
+        "wordslearnt": [
+            "3000370869", 
+            "4100004722"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 11, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They only want your blue berries."
+        ], 
+        "unl": [
+            "agt(2001825237,00.@3.@pl);obj(2001825237,1007742704.@pl);mod(1007742704.@pl,3000370869);pos(1007742704.@pl,00.@2);man(2001825237,4100004722)"
+        ], 
+        "wordslearnt": [
+            "2001822936"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 12, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They don't care about the yellow berries."
+        ], 
+        "unl": [
+            "agt(2001822936.@not,00.@3.@pl);cnt(2001822936.@not,1007742704.@pl.@def);mod(1007742704.@pl.@def,3000385756)"
+        ], 
+        "wordslearnt": [
+            "3002336109"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 13, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They have enough red berries."
+        ], 
+        "unl": [
+            "agt(2002203362,00.@3.@pl);obj(2002203362,1007742704.@pl);mod(1007742704.@pl,3000381097);qua(1007742704.@pl,3002336109)"
+        ], 
+        "wordslearnt": [
+            "3001282510"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 14, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "These berries are awesome."
+        ], 
+        "unl": [
+            "agt(2002604760,1007742704.@pl.@proximal);obj(2002604760,3001282510)"
+        ], 
+        "wordslearnt": [
+            "2001951480", 
+            "3001555133"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 15, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Send them more berries."
+        ], 
+        "unl": [
+            "gol(2001951480,00.@3.@pl);obj(2001951480,1007742704.@pl);qua(1007742704.@pl,3001555133)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 16, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The birds love the yummy berries."
+        ], 
+        "unl": [
+            "agt(2001775164,1001503061.@pl.@def);obj(2001775164,1007742704.@pl.@def);mod(1007742704.@pl.@def,3002396720)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 17, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The berries are red and green and yellow."
+        ], 
+        "unl": [
+            "agt(2002604760,1007742704.@pl.@def);obj(2002604760,3000381097);and(3000381097,3000375969);and(3000375969,3000385756)"
+        ], 
+        "wordslearnt": [
+            "3001551633"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 18, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "You have many bananas and berries."
+        ], 
+        "unl": [
+            "agt(2002203362,00.@2);obj(2002203362,1012352287.@pl);qua(1012352287.@pl,3001551633);and(1012352287.@pl,1007742704.@pl)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 19, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "My friend loves berries and bananas."
+        ], 
+        "unl": [
+            "agt(2001775164,1010112591);pos(1010112591,00.@1);obj(2001775164,1007742704.@pl);and(1007742704.@pl,1012352287.@pl)"
+        ], 
+        "wordslearnt": [
+            "3002395115"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural"
+        ], 
+        "index": 20, 
+        "level": 2, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They like the tasty fruits."
+        ], 
+        "unl": [
+            "agt(2001824736,00.@3.@pl);obj(2001824736,1013134947.@pl.@def);mod(1013134947.@pl.@def,3002395115)"
+        ], 
+        "wordslearnt": [
+            "2002130524", 
+            "3002267308"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 1, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I am looking at some berries for my friend."
+        ], 
+        "unl": [
+            "agt(2002130524.@continuous,00.@1);obj(2002130524.@continuous,1007742704.@pl);qua(1007742704.@pl,3002267308);ben(2002130524.@continuous,1010112591);pos(1010112591,00.@1)"
+        ], 
+        "wordslearnt": [
+            "2001508368", 
+            "4000095320"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 2, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The monkeys are throwing the fruits down."
+        ], 
+        "unl": [
+            "agt(2001508368.@continuous,1002484322.@pl.@def);obj(2001508368.@continuous,1013134947.@pl.@def);to(2001508368.@continuous,4000095320)"
+        ], 
+        "wordslearnt": [
+            "2000676450"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 3, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The tiger is picking the berries."
+        ], 
+        "unl": [
+            "agt(2000676450.@continuous,1002129604.@def);obj(2000676450.@continuous,1007742704.@pl.@def)"
+        ], 
+        "wordslearnt": [
+            "1009436708", 
+            "2001940403"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 4, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The birds are flying in the sky."
+        ], 
+        "unl": [
+            "agt(2001940403.@continuous,1001503061.@def.@pl);plc(2001940403.@continuous,1009436708.@def)"
+        ], 
+        "wordslearnt": [
+            "1009334396", 
+            "2001543123"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 5, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "My friend is sitting on the ground and eating the berries."
+        ], 
+        "unl": [
+            "agt(2001543123.@continuous,1010112591);pos(1010112591,00.@1);plc(2001543123.@continuous,1009334396.@def.@on);and(2001543123.@continuous,2001168468.@continuous);obj(2001168468.@continuous,1007742704.@def.@pl)"
+        ], 
+        "wordslearnt": [
+            "2101731031", 
+            "4000070166"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 6, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The bird is singing softly."
+        ], 
+        "unl": [
+            "agt(2101731031.@continuous,1001503061.@def);man(2101731031.@continuous,4000070166)"
+        ], 
+        "wordslearnt": [
+            "2001771535", 
+            "3001148283"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 7, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "She is feeling happy."
+        ], 
+        "unl": [
+            "agt(2001771535.@continuous,00.@3.@female);man(2001771535.@continuous,3001148283)"
+        ], 
+        "wordslearnt": [
+            "3000220082", 
+            "3001676517"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 8, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The pretty bird and I are eating the wonderful berries."
+        ], 
+        "unl": [
+            "agt(2001168468.@continuous,1001503061.@def);mod(1001503061.@def,3000220082);and(1001503061.@def,00.@1);obj(2001168468.@continuous,1007742704.@pl.@def);mod(1007742704.@pl.@def,3001676517)"
+        ], 
+        "wordslearnt": [
+            "00.@3.@neuter", 
+            "00.@proximal.@place", 
+            "2002756558"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 9, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "It is raining here."
+        ], 
+        "unl": [
+            "agt(2002756558.@continuous,00.@3.@neuter);plc(2002756558.@continuous,00.@proximal.@place)"
+        ], 
+        "wordslearnt": [
+            "00.@1.@pl", 
+            "1009238926", 
+            "2001926311", 
+            "3000976508"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 10, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We are running to the cave fast."
+        ], 
+        "unl": [
+            "agt(2001926311.@continuous,00.@1.@pl);to(2001926311.@continuous,1009238926.@def);man(2001926311.@continuous,3000976508)"
+        ], 
+        "wordslearnt": [
+            "2002144835", 
+            "3001643620"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 11, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We are hiding in an old cave."
+        ], 
+        "unl": [
+            "agt(2002144835.@continuous,00.@1.@pl);plc(2002144835.@continuous,1009238926.@indef);mod(1009238926.@indef,3001643620)"
+        ], 
+        "wordslearnt": [
+            "3001251128", 
+            "3002547317"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 12, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I am feeling cold and wet."
+        ], 
+        "unl": [
+            "agt(2001771535.@continuous,00.@1);man(2001771535.@continuous,3001251128);and(3001251128,3002547317)"
+        ], 
+        "wordslearnt": [
+            "2101835496", 
+            "3002069355"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 13, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We are going to another cave."
+        ], 
+        "unl": [
+            "agt(2101835496.@continuous,00.@1.@pl);to(2101835496.@continuous,1009238926.@indef);mod(1009238926.@indef,3002069355)"
+        ], 
+        "wordslearnt": [
+            "1000015388", 
+            "2001315613"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 14, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The other animals are searching for us."
+        ], 
+        "unl": [
+            "agt(2001315613.@continuous,1000015388.@def.@pl);mod(1000015388.@def.@pl,3002069355);obj(2001315613.@continuous,00.@1.@pl)"
+        ], 
+        "wordslearnt": [
+            "2002248465"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 15, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They aren't finding us."
+        ], 
+        "unl": [
+            "agt(2002248465.@continuous.@not,00.@3.@pl);obj(2002248465.@continuous.@not,00.@1.@pl)"
+        ], 
+        "wordslearnt": [
+            "1009450163", 
+            "2004953954", 
+            "3000217728"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 16, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The beautiful sun is shining now."
+        ], 
+        "unl": [
+            "agt(2004953954.@continuous,1009450163.@def);tim(2004953954.@continuous,4000049433);mod(1009450163.@def,3000217728)"
+        ], 
+        "wordslearnt": [
+            "2001849221", 
+            "4000232862"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 17, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "It isn't raining now and we are coming out."
+        ], 
+        "unl": [
+            "agt(2002756558.@continuous.@not,00.@3.@neuter);tim(2002756558.@continuous.@not,4000049433);and(2002756558.@continuous.@not,2001849221.@continuous);agt(2001849221.@continuous,00.@1.@pl);to(2001849221.@continuous,4000232862)"
+        ], 
+        "wordslearnt": [
+            "2001904930", 
+            "4000948514"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 18, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We are walking outside."
+        ], 
+        "unl": [
+            "agt(2001904930.@continuous,00.@1.@pl);to(2001904930.@continuous,4000948514)"
+        ], 
+        "wordslearnt": [
+            "3002529264", 
+            "3002551380"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 19, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We are feeling warm and dry."
+        ], 
+        "unl": [
+            "agt(2001771535.@continuous,00.@1.@pl);man(2001771535.@continuous,3002529264);and(3002529264,3002551380)"
+        ], 
+        "wordslearnt": [
+            "2001072949", 
+            "2001894649", 
+            "4000116791"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 20, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We are dancing and playing together."
+        ], 
+        "unl": [
+            "agt(2001894649.@continuous,00.@1.@pl);and(2001894649.@continuous,2001072949.@continuous);man(2001072949.@continuous,4000116791)"
+        ], 
+        "wordslearnt": [
+            "1007221094", 
+            "2101009240", 
+            "3001265308"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 21, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The tiger is telling us funny stories."
+        ], 
+        "unl": [
+            "agt(2101009240.@continuous,1002129604.@def);gol(2101009240.@continuous,00.@1.@pl);obj(2101009240.@continuous,1007221094.@pl);mod(1007221094.@pl,3001265308)"
+        ], 
+        "wordslearnt": [
+            "1000429949", 
+            "3000085630"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing"
+        ], 
+        "index": 22, 
+        "level": 3, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We are excited and having fun."
+        ], 
+        "unl": [
+            "agt(2002604760,00.@1.@pl);obj(2002604760,3000085630);and(2002604760,2002203362.@continuous);obj(2002203362.@continuous,1000429949)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 1, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Do you have a berry for my friend?"
+        ], 
+        "unl": [
+            "agt(2002203362.@interrogative,00.@2);obj(2002203362.@interrogative,1007742704.@indef);ben(2002203362.@interrogative,1010112591);pos(1010112591,00.@1)"
+        ], 
+        "wordslearnt": [
+            "1007772935"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 2, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I don't like coconuts."
+        ], 
+        "unl": [
+            "agt(2001824736.@not,00.@1);obj(2001824736.@not,1007772935.@pl)"
+        ], 
+        "wordslearnt": [
+            "1002512053", 
+            "1007574602"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 3, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I want to eat some fish for breakfast."
+        ], 
+        "unl": [
+            "agt(2001825237,00.@1);obj(2001825237,2001168468);obj(2001168468,1002512053);qua(1002512053,3002267308);pur(2001168468,1007574602)"
+        ], 
+        "wordslearnt": [
+            "4000047534"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 4, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Do you also want some fish?"
+        ], 
+        "unl": [
+            "agt(2001825237.@interrogative,00.@2);man(2001825237.@interrogative,4000047534);obj(2001825237.@interrogative,1002512053);qua(1002512053,3002267308)"
+        ], 
+        "wordslearnt": [
+            "1002131653"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 5, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Does the bear want to eat berries?"
+        ], 
+        "unl": [
+            "agt(2001825237.@interrogative,1002131653);obj(2001825237.@interrogative,2001168468);obj(2001168468,1007742704.@pl)"
+        ], 
+        "wordslearnt": [
+            "4000031899"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 6, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "It is very cold here."
+        ], 
+        "unl": [
+            "agt(2002604760,00.@3.@neuter);obj(2002604760,3001251128);mod(3001251128,4000031899);plc(2002604760,00.@proximal.@place)"
+        ], 
+        "wordslearnt": [
+            "1007929519", 
+            "2001170052", 
+            "3001247240"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 7, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I want to drink hot coffee."
+        ], 
+        "unl": [
+            "agt(2001825237,00.@1);obj(2001825237,2001170052);obj(2001170052,1007929519.@nodef);mod(1007929519.@nodef,3001247240)"
+        ], 
+        "wordslearnt": [
+            "1002849154"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 8, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Do you have warm blankets for me?"
+        ], 
+        "unl": [
+            "agt(2002203362.@interrogative,00.@2);obj(2002203362.@interrogative,1002849154.@pl);mod(1002849154.@pl,3002529264);ben(2002203362.@interrogative,00.@1)"
+        ], 
+        "wordslearnt": [
+            "1007707451"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 9, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I want cold meat and vegetables."
+        ], 
+        "unl": [
+            "agt(2001825237,00.@1);obj(2001825237,1007649854);and(1007649854,1007707451.@pl);mod(1007649854,3001251128)"
+        ], 
+        "wordslearnt": [
+            "1015262921", 
+            "3000292937"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 10, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They are busy today."
+        ], 
+        "unl": [
+            "agt(2002604760,00.@3.@pl);obj(2002604760,3000292937);tim(2002604760,1015262921)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 11, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Do they know that the berries are here?"
+        ], 
+        "unl": [
+            "agt(2000594621.@interrogative,00.@3.@pl);cnt(2000594621.@interrogative,2002604760);agt(2002604760,1007742704.@pl.@def);plc(2002604760,00.@proximal.@place)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 12, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Do you give them the berries?"
+        ], 
+        "unl": [
+            "agt(2002316868.@interrogative,00.@2);gol(2002316868.@interrogative,00.@3.@pl);obj(2002316868.@interrogative,1007742704.@pl.@def)"
+        ], 
+        "wordslearnt": [
+            "2002599636", 
+            "4000232936"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 13, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Do they take the berries and run away?"
+        ], 
+        "unl": [
+            "agt(2002599636.@interrogative,00.@3.@pl);obj(2002599636.@interrogative,1007742704.@def.@pl);and(2002599636.@interrogative,2001926311);to(2001926311,4000232936)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 14, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Don't you like the berries?"
+        ], 
+        "unl": [
+            "agt(2001824736.@not.@interrogative,00.@2);obj(2001824736.@not.@interrogative,1007742704.@def.@pl)"
+        ], 
+        "wordslearnt": [
+            "2002637938"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 15, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Are we waiting for the birds to come?"
+        ], 
+        "unl": [
+            "agt(2002637938.@continuous.@interrogative,00.@1.@pl);ben(2002637938.@continuous.@interrogative,1001503061.@def.@pl);pur(2002637938.@continuous.@interrogative,2001849221)"
+        ], 
+        "wordslearnt": [
+            "2002423183"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar"
+        ], 
+        "index": 16, 
+        "level": 4, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Let us eat the berries together."
+        ], 
+        "unl": [
+            "gol(2002423183,00.@1.@pl);obj(2002423183,2001168468);obj(2001168468,1007742704.@pl.@def);man(2001168468,4000116791)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 1, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I don't want to eat the berries now."
+        ], 
+        "unl": [
+            "agt(2001825237.@not,00.@1);obj(2001825237.@not,2001168468);obj(2001168468,1007742704.@def.@pl);tim(2001168468,4000049433)"
+        ], 
+        "wordslearnt": [
+            "3000123485"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 2, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I will eat them later."
+        ], 
+        "unl": [
+            "agt(2001168468.@future,00.@1);obj(2001168468.@future,00.@3.@pl);tim(2001168468.@future,3000123485)"
+        ], 
+        "wordslearnt": [
+            "1002503517", 
+            "2001009240", 
+            "3000744916"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 3, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The elephant said that the berries are very hard."
+        ], 
+        "unl": [
+            "agt(2001009240.@past,1002503517.@def);cnt(2001009240.@past,2002604760);agt(2002604760,1007742704.@pl.@def);obj(2002604760,3000744916);mod(3000744916,4000031899)"
+        ], 
+        "wordslearnt": [
+            "2000149583", 
+            "3001152746"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 4, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "These will become soft later."
+        ], 
+        "unl": [
+            "agt(2000149583.@future,00.@proximal.@pl);obj(2000149583.@future,3001152746);tim(2000149583.@future,3000123485)"
+        ], 
+        "wordslearnt": [
+            "1015203791", 
+            "3001730329"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 5, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The elephant came here last year."
+        ], 
+        "unl": [
+            "agt(2001849221.@past,1002503517.@def);to(2001849221.@past,00.@proximal.@place);tim(2001849221.@past,1015203791);mod(1015203791,3001730329)"
+        ], 
+        "wordslearnt": [
+            "00.@3.@male", 
+            "1008438533", 
+            "2002023107"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 6, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He met the monkeys in the forest."
+        ], 
+        "unl": [
+            "agt(2002023107.@past,00.@3.@male);obj(2002023107.@past,1002484322.@pl.@def);plc(2002023107.@past,1008438533)"
+        ], 
+        "wordslearnt": [
+            "2002148788"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 7, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The monkeys showed him the berries."
+        ], 
+        "unl": [
+            "agt(2002148788.@past,1002484322.@def.@pl);obj(2002148788.@past,1007742704.@def.@pl);ben(2002148788.@past,00.@3.@male)"
+        ], 
+        "wordslearnt": [
+            "2000117985"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 8, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The elephant liked the monkeys and stayed in the jungle."
+        ], 
+        "unl": [
+            "agt(2001824736.@past,1002503517.@def);obj(2001824736.@past,1002484322.@def.@pl);and(2001824736.@past,2000117985.@past);plc(2000117985.@past,1008509111.@def)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 9, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Did he play with the monkeys?"
+        ], 
+        "unl": [
+            "agt(2001072949.@past.@interrogative,00.@3.@male);cag(2001072949.@past.@interrogative,1002484322.@def.@pl)"
+        ], 
+        "wordslearnt": [
+            "2000962447"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 10, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He talked to the birds."
+        ], 
+        "unl": [
+            "agt(2000962447.@past,00.@3.@male);to(2000962447.@past,1001503061.@pl.@def)"
+        ], 
+        "wordslearnt": [
+            "2001090335"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 11, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He also fought with them."
+        ], 
+        "unl": [
+            "agt(2001090335.@past,00.@3.@male);cag(2001090335.@past,00.@3.@pl);man(2001090335.@past,4000047534)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 12, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He didn't like the monkeys."
+        ], 
+        "unl": [
+            "agt(2001824736.@past.@not,00.@3.@male);obj(2001824736.@past.@not,1002484322.@pl.@def)"
+        ], 
+        "wordslearnt": [
+            "1013943968", 
+            "2002560585", 
+            "3000632438", 
+            "4000021878"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 13, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The monkeys sometimes did the wrong things."
+        ], 
+        "unl": [
+            "agt(2002560585.@past,1002484322.@def.@pl);obj(2002560585.@past,1013943968.@pl.@def);mod(1013943968.@pl.@def,3000632438);tim(2002560585.@past,4000021878)"
+        ], 
+        "wordslearnt": [
+            "2000829107", 
+            "4000205052"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 14, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He taught them the right things."
+        ], 
+        "unl": [
+            "agt(2000829107.@past,00.@3.@male);gol(2000829107.@past,00.@3.@pl);obj(2000829107.@past,1013943968.@pl.@def);mod(1013943968.@pl.@def,4000205052)"
+        ], 
+        "wordslearnt": [
+            "2000805376"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 15, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The monkeys agreed with him."
+        ], 
+        "unl": [
+            "agt(2000805376.@past,1002484322.@def.@pl);cag(2000805376.@past,00.@3.@male)"
+        ], 
+        "wordslearnt": [
+            "4000107416"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 16, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They became friends recently."
+        ], 
+        "unl": [
+            "agt(2000149583.@past,00.@3.@pl);obj(2000149583.@past,1010112591.@pl);tim(2000149583.@past,4000107416)"
+        ], 
+        "wordslearnt": [
+            "1009217230", 
+            "1015155891"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 17, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The animals will go to the beach tomorrow."
+        ], 
+        "unl": [
+            "agt(2101835496.@future,1000015388.@pl.@def);to(2101835496.@future,1009217230.@def);tim(2101835496.@future,1015155891)"
+        ], 
+        "wordslearnt": [
+            "3001816376"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 18, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They will eat their favorite berries together."
+        ], 
+        "unl": [
+            "agt(2001168468.@future,00.@3.@pl);obj(2001168468.@future,1007742704.@def.@pl);mod(1007742704.@def.@pl,3001816376);man(2001168468.@future,4000116791);pos(1007742704.@def.@pl,00.@3.@pl)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense"
+        ], 
+        "index": 19, 
+        "level": 5, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They want to have fun because they are friends now."
+        ], 
+        "unl": [
+            "agt(2001825237,00.@3.@pl);obj(2001825237,2002203362);obj(2002203362,1000429949);rsn(2002203362,2002604760);agt(2002604760,00.@3.@pl);obj(2002604760,1010112591.@pl);tim(2002604760,4000049433)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 1, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "How are you doing?"
+        ], 
+        "unl": [
+            "agt(2002560585.@continuous,00.@2);man(2002560585.@continuous,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "3001123148"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 2, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I am doing good."
+        ], 
+        "unl": [
+            "agt(2002560585.@continuous,00.@1);obj(2002560585.@continuous,3001123148)"
+        ], 
+        "wordslearnt": [
+            "1008615149"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 3, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They are going to the park."
+        ], 
+        "unl": [
+            "agt(2101835496.@continuous,00.@3.@pl);to(2101835496.@continuous,1008615149.@def)"
+        ], 
+        "wordslearnt": [
+            "1015155220"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 4, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "How is the day today?"
+        ], 
+        "unl": [
+            "agt(2002604760,1015155220.@def);tim(2002604760,1015262921);man(2002604760,00.@wh)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 5, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Today is warm and wonderful."
+        ], 
+        "unl": [
+            "agt(2002604760,1015262921);obj(2002604760,3002529264);and(3002529264,3001676517)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 6, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "What will they do in the park?"
+        ], 
+        "unl": [
+            "agt(2002560585.@future,00.@3.@neuter.@pl);obj(2002560585.@future,00.@wh);plc(2002560585.@future,1008615149.@def)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 7, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They will play together and have fun."
+        ], 
+        "unl": [
+            "agt(2001072949.@future,00.@3.@neuter.@pl);man(2001072949.@future,4000116791);and(2001072949.@future,2002203362.@future);obj(2002203362.@future,1000429949)"
+        ], 
+        "wordslearnt": [
+            "2002001858"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 8, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "What is the tiger chasing?"
+        ], 
+        "unl": [
+            "agt(2002001858.@continuous,1002129604.@def);obj(2002001858.@continuous,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "3101391351"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 9, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The tiger is chasing the little monkey."
+        ], 
+        "unl": [
+            "agt(2002001858.@continuous,1002129604.@def);obj(2002001858.@continuous,1002484322.@def);mod(1002484322.@def,3101391351)"
+        ], 
+        "wordslearnt": [
+            "2001860795"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 10, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "When will they stop playing?"
+        ], 
+        "unl": [
+            "agt(2001860795.@future,00.@3.@neuter.@pl);obj(2001860795.@future,2001072949);tim(2001860795.@future,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "4000033922"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 11, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They will stop playing soon."
+        ], 
+        "unl": [
+            "agt(2001860795.@future,00.@3.@pl);obj(2001860795.@future,2001072949);tim(2001860795.@future,4000033922)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 12, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Why did they stop?"
+        ], 
+        "unl": [
+            "agt(2001860795.@past,00.@3.@pl);rsn(2001860795.@past,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "3002554140"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 13, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They stopped because they are thirsty."
+        ], 
+        "unl": [
+            "agt(2001860795.@past,00.@3.@pl);rsn(2001860795.@past,2002604760);agt(2002604760,00.@3.@male.@pl);obj(2002604760,3002554140)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 14, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "How many animals are playing?"
+        ], 
+        "unl": [
+            "agt(2001072949.@continuous,1000015388.@pl);qua(1000015388.@pl,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "00.@distal.@place"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 15, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "50 animals are there."
+        ], 
+        "unl": [
+            "agt(2002604760,1000015388.@pl);qua(1000015388.@pl,50.@number);plc(2002604760,00.@distal.@place)"
+        ], 
+        "wordslearnt": [
+            "3002431728"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 16, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Which animal is the most tired animal?"
+        ], 
+        "unl": [
+            "agt(2002604760,1000015388);mod(1000015388,00.@wh);obj(2002604760,1000015388.@def);mod(1000015388.@def,3002431728.@most)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 17, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "My favorite monkey is the most tired animal."
+        ], 
+        "unl": [
+            "agt(2002604760,1002484322);pos(1002484322,00.@1);mod(1002484322,3001816376);obj(2002604760,1000015388.@def);mod(1000015388.@def,3002431728.@most)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 18, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Why did he become tired?"
+        ], 
+        "unl": [
+            "agt(2000149583.@past,00.@3.@male);obj(2000149583.@past,3002431728);rsn(2000149583.@past,00.@wh)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 19, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He was running very fast."
+        ], 
+        "unl": [
+            "agt(2001926311.@past.@continuous,00.@3.@male);man(2001926311.@past.@continuous,3000976508);man(3000976508,4000031899)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 20, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Where are the birds?"
+        ], 
+        "unl": [
+            "agt(2002604760,1001503061.@pl.@def);plc(2002604760,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "3001210854", 
+            "4000101323"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 21, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The birds are flying far and high."
+        ], 
+        "unl": [
+            "agt(2001940403.@continuous,1001503061.@def.@pl);to(2001940403.@continuous,4000101323);and(4000101323,3001210854)"
+        ], 
+        "wordslearnt": [
+            "4000131692"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 22, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "When will they come back?"
+        ], 
+        "unl": [
+            "agt(2001849221.@future,00.@3.@male.@pl);to(2001849221.@future,4000131692);tim(2001849221.@future,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "1015166462"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 23, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They will come back in the evening."
+        ], 
+        "unl": [
+            "agt(2001849221.@future,00.@3.@pl);to(2001849221.@future,4000131692);tim(2001849221.@future,1015166462.@def)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 24, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "What will they do?"
+        ], 
+        "unl": [
+            "agt(2002560585.@future,00.@3.@neuter.@pl);obj(2002560585.@future,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "2002169891"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword"
+        ], 
+        "index": 25, 
+        "level": 6, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They will listen to the stories about the monkeys."
+        ], 
+        "unl": [
+            "agt(2002169891.@future,00.@3.@pl);obj(2002169891.@future,1007221094.@def.@pl);cnt(1007221094.@def.@pl,1002484322.@pl.@def)"
+        ], 
+        "wordslearnt": [
+            "1009475292", 
+            "2001546111"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 1, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Let us stand under the waterfall."
+        ], 
+        "unl": [
+            "gol(2002423183,00.@1.@pl);obj(2002423183,2001546111);plc(2001546111,1009475292.@under)"
+        ], 
+        "wordslearnt": [
+            "1005563266", 
+            "1009416076"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 2, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Many stones are under my feet."
+        ], 
+        "unl": [
+            "agt(2002604760,1009416076.@pl);qua(1009416076.@pl,3001551633);plc(2002604760,1005563266.@pl.@under);pos(1005563266.@pl.@under,00.@1)"
+        ], 
+        "wordslearnt": [
+            "2001960911"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 3, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The fishes are swimming near us."
+        ], 
+        "unl": [
+            "agt(2001960911.@continuous,1102512053.@pl.@def);plc(2001960911.@continuous,00.@1.@pl.@near)"
+        ], 
+        "wordslearnt": [
+            "1013104059"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 4, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Why are the monkeys sitting on the tree?"
+        ], 
+        "unl": [
+            "agt(2001543123.@continuous,1002484322.@pl.@def);plc(2001543123.@continuous,1013104059.@def.@on);rsn(2001543123.@continuous,00.@wh)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 5, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They are throwing the berries on the ground."
+        ], 
+        "unl": [
+            "agt(2001508368.@continuous,00.@3.@neuter.@pl);obj(2001508368.@continuous,1007742704.@pl.@def);plc(2001508368.@continuous,1009334396.@def.@on)"
+        ], 
+        "wordslearnt": [
+            "1005538625", 
+            "2001972298", 
+            "3002040652"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 6, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The berries are falling on his round head."
+        ], 
+        "unl": [
+            "agt(2001972298.@continuous,1007742704.@pl.@def);to(2001972298.@continuous,1005538625.@on);pos(1005538625.@on,00.@3.@male);mod(1005538625.@on,3002040652)"
+        ], 
+        "wordslearnt": [
+            "1005311054", 
+            "2001206218", 
+            "2101345109"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 7, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He is closing his eyes and touching the berries."
+        ], 
+        "unl": [
+            "agt(2101345109.@continuous,00.@3.@male);obj(2101345109.@continuous,1005311054.@pl);pos(1005311054.@pl,00.@3.@male);and(2101345109.@continuous,2001206218.@continuous);obj(2001206218.@continuous,1007742704.@pl.@def)"
+        ], 
+        "wordslearnt": [
+            "1005302499", 
+            "1005564590", 
+            "2001494310"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 8, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He is picking them using his hands and putting them in his mouth."
+        ], 
+        "unl": [
+            "agt(2000676450.@continuous,00.@3.@male);obj(2000676450.@continuous,00.@3.@pl);ins(2000676450.@continuous,1005564590.@pl);pos(1005564590.@pl,00.@3.@male);and(2000676450.@continuous,2001494310.@continuous);obj(2001494310.@continuous,00.@3.@pl);plc(2001494310.@continuous,1005302499.@in);pos(1005302499.@in,00.@3.@male)"
+        ], 
+        "wordslearnt": [
+            "1002954340", 
+            "2000052374", 
+            "2000607780"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 9, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He will remember to wear a cap on his head tomorrow."
+        ], 
+        "unl": [
+            "agt(2000607780.@future,00.@3.@male);obj(2000607780.@future,2000052374);obj(2000052374,1002954340.@indef);plc(2000052374,1005538625.@on);pos(1005538625.@on,00.@3.@male);tim(2000052374,1015155891)"
+        ], 
+        "wordslearnt": [
+            "1002883344", 
+            "2002681795"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 10, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Did he keep the berries in a box?"
+        ], 
+        "unl": [
+            "agt(2002681795.@interrogative.@past,00.@3.@male);obj(2002681795.@interrogative.@past,1007742704.@pl.@def);plc(2002681795.@interrogative.@past,1002883344.@in.@indef)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 11, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He hid the berries under the ground."
+        ], 
+        "unl": [
+            "agt(2002144835.@past,00.@3.@male);obj(2002144835.@past,1007742704.@pl.@def);to(2002144835.@past,1009334396.@def.@under)"
+        ], 
+        "wordslearnt": [
+            "2002718309"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 12, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He doesn't want to share them with his friends."
+        ], 
+        "unl": [
+            "agt(2001825237.@not,00.@3.@male);obj(2001825237.@not,2002718309);obj(2002718309,00.@3.@pl);cag(2002718309,1010112591.@pl);pos(1010112591.@pl,00.@3.@male)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 13, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The elephant is standing below the tree."
+        ], 
+        "unl": [
+            "agt(2001546111.@continuous,1002503517.@def);plc(2001546111.@continuous,1013104059.@def.@below)"
+        ], 
+        "wordslearnt": [
+            "2000725748", 
+            "3000980527"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 14, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The slow tiger couldn't catch the fast monkeys."
+        ], 
+        "unl": [
+            "agt(2000725748.@not.@ability.@past,1002129604.@def);mod(1002129604.@def,3000980527);obj(2000725748.@not.@ability.@past,1002484322.@def.@pl);mod(1002484322.@def.@pl,3000976508)"
+        ], 
+        "wordslearnt": [
+            "2001835496"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 15, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They were moving very fast."
+        ], 
+        "unl": [
+            "agt(2001835496.@past.@continuous,00.@3.@neuter.@pl);obj(2001835496.@past.@continuous,3000976508);man(3000976508,4000031899)"
+        ], 
+        "wordslearnt": [
+            "3001061489", 
+            "4000040365"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 16, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The monkeys are free again."
+        ], 
+        "unl": [
+            "agt(2002604760,1002484322.@pl.@def);obj(2002604760,3001061489);man(2002604760,4000040365)"
+        ], 
+        "wordslearnt": [
+            "1000455599", 
+            "2001100145"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places"
+        ], 
+        "index": 17, 
+        "level": 7, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "They won the game."
+        ], 
+        "unl": [
+            "agt(2001100145.@past,00.@3.@pl);obj(2001100145.@past,1000455599.@def)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 1, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Who will catch the biggest fish today?"
+        ], 
+        "unl": [
+            "agt(2000725748.@future,00.@wh);obj(2000725748.@future,1002512053.@def);tim(2000725748.@future,1015262921);mod(1002512053.@def,3001382086.@most)"
+        ], 
+        "wordslearnt": [
+            "1009411430", 
+            "2001140794", 
+            "3000444519"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 2, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Let us go to the nearest river and teach the bear to fish."
+        ], 
+        "unl": [
+            "gol(2002423183,00.@1.@pl);obj(2002423183,2101835496);to(2101835496,1009411430.@def);mod(1009411430.@def,3000444519.@most);and(2101835496,2000829107);gol(2000829107,1002131653.@def);obj(2000829107,2001140794)"
+        ], 
+        "wordslearnt": [
+            "1014845743", 
+            "2002066510"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 3, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The water is flowing faster now."
+        ], 
+        "unl": [
+            "agt(2002066510.@continuous,1014845743.@def);tim(2002066510.@continuous,4000049433);man(2002066510.@continuous,3000976508.@more)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 4, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The bear is catching the bigger fish."
+        ], 
+        "unl": [
+            "agt(2000725748.@continuous,1002131653.@def);obj(2000725748.@continuous,1002512053.@def);mod(1002512053.@def,3001382086.@more)"
+        ], 
+        "wordslearnt": [
+            "3001391351"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 5, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "My fish is the smallest fish."
+        ], 
+        "unl": [
+            "agt(2002604760,1002512053);obj(2002604760,1002512053.@def);pos(1002512053,00.@1);mod(1002512053.@def,3001391351.@most)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 6, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Today is the hottest day."
+        ], 
+        "unl": [
+            "agt(2002604760,1015262921);obj(2002604760,1015155220.@def);mod(1015155220.@def,3001247240.@most)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 7, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "What are the other animals doing?"
+        ], 
+        "unl": [
+            "agt(2002560585.@continuous,1000015388.@def.@pl);obj(2002560585.@continuous,00.@wh);mod(1000015388.@def.@pl,3002069355)"
+        ], 
+        "wordslearnt": [
+            "2001921964"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 8, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The older monkeys are climbing the tree."
+        ], 
+        "unl": [
+            "agt(2001921964.@continuous,1002484322.@def.@pl);obj(2001921964.@continuous,1013104059.@def);mod(1002484322.@def.@pl,3001643620.@more)"
+        ], 
+        "wordslearnt": [
+            "2002150510", 
+            "3001646941"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 9, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The younger monkeys are watching their friends."
+        ], 
+        "unl": [
+            "agt(2002150510.@continuous,1002484322.@pl.@def);obj(2002150510.@continuous,1010112591.@pl);mod(1002484322.@pl.@def,3001646941.@more);pos(1010112591.@pl,00.@3.@pl)"
+        ], 
+        "wordslearnt": [
+            "1002157557", 
+            "2001448100", 
+            "3001442186"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 10, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Why is the bear pulling the shortest monkey's tail?"
+        ], 
+        "unl": [
+            "agt(2001448100.@continuous,1002131653.@def);obj(2001448100.@continuous,1002157557.@def);pos(1002157557.@def,1002484322);mod(1002484322,3001442186.@most);rsn(2001448100.@continuous,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "3001437963"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 11, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "That monkey has the longest tail."
+        ], 
+        "unl": [
+            "agt(2002203362,1002484322.@distal);obj(2002203362,1002157557.@def);mod(1002157557.@def,3001437963.@most)"
+        ], 
+        "wordslearnt": [
+            "3000262792"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 12, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The braver monkeys are playing with the tiger."
+        ], 
+        "unl": [
+            "agt(2001072949.@continuous,1002484322.@def.@pl);cag(2001072949.@continuous,1002129604.@def);mod(1002484322.@def.@pl,3000262792.@more)"
+        ], 
+        "wordslearnt": [
+            "2001957529", 
+            "2002129289", 
+            "3002385102"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 13, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Don't you see that the tallest monkeys are riding on the elephant?"
+        ], 
+        "unl": [
+            "agt(2002129289.@interrogative.@not,00.@2);cnt(2002129289.@interrogative.@not,2001957529.@continuous);agt(2001957529.@continuous,1002484322.@pl.@def);mod(1002484322.@pl.@def,3002385102.@most);plc(2001957529.@continuous,1002503517.@def.@on)"
+        ], 
+        "wordslearnt": [
+            "3002357479", 
+            "3002432682"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 14, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The bored bird is most surprised."
+        ], 
+        "unl": [
+            "agt(2002604760,1001503061.@def);obj(2002604760,3002357479.@most);mod(1001503061.@def,3002432682)"
+        ], 
+        "wordslearnt": [
+            "1000021265", 
+            "2002210855"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 15, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The younger monkeys are getting the food from the elephant."
+        ], 
+        "unl": [
+            "agt(2002210855.@continuous,1002484322.@pl.@def);mod(1002484322.@pl.@def,3001646941.@more);obj(2002210855.@continuous,1000021265.@def);frm(2002210855.@continuous,1002503517.@def)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most"
+        ], 
+        "index": 16, 
+        "level": 8, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "These are the yummiest berries."
+        ], 
+        "unl": [
+            "agt(2002604760,00.@proximal.@pl);obj(2002604760,1007742704.@def.@pl);mod(1007742704.@def.@pl,3002396720.@most)"
+        ], 
+        "wordslearnt": [
+            "1007575726", 
+            "1015263045", 
+            "2102560585", 
+            "3001386883"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 1, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We must make a great dinner tonight."
+        ], 
+        "unl": [
+            "agt(2102560585.@obligation,00.@1.@pl);obj(2102560585.@obligation,1007575726.@indef);tim(2102560585.@obligation,1015263045);mod(1007575726.@indef,3001386883)"
+        ], 
+        "wordslearnt": [
+            "2001665638"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 2, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "What can we cook?"
+        ], 
+        "unl": [
+            "agt(2001665638.@ability,00.@1.@pl);obj(2001665638.@ability,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "2001028748", 
+            "2002547586"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 3, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Can you call the bear to help us?"
+        ], 
+        "unl": [
+            "agt(2001028748.@ability.@interrogative,00.@2);obj(2001028748.@ability.@interrogative,1002131653.@def);pur(2001028748.@ability.@interrogative,2002547586);obj(2002547586,00.@1.@pl)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 4, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The bear cooks the best fish."
+        ], 
+        "unl": [
+            "agt(2001665638,1002131653.@def);obj(2001665638,1002512053.@def);mod(1002512053.@def,3001123148.@most)"
+        ], 
+        "wordslearnt": [
+            "00.@any"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 5, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He can make anything using fish."
+        ], 
+        "unl": [
+            "agt(2102560585.@ability,00.@3.@male);obj(2102560585.@ability,00.@any);ins(2102560585.@ability,1002512053.@nodef)"
+        ], 
+        "wordslearnt": [
+            "2002077656"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 6, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Can you bring the fish?"
+        ], 
+        "unl": [
+            "agt(2002077656.@ability.@interrogative,00.@2);obj(2002077656.@ability.@interrogative,1002512053.@def)"
+        ], 
+        "wordslearnt": [
+            "2001532589", 
+            "3000419289"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 7, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "You may clean the dirty fish."
+        ], 
+        "unl": [
+            "agt(2001532589.@hypothesis,00.@2);obj(2001532589.@hypothesis,1002512053.@def);mod(1002512053.@def,3000419289)"
+        ], 
+        "wordslearnt": [
+            "2001552519"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 8, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I will cut some vegetables."
+        ], 
+        "unl": [
+            "agt(2001552519.@future,00.@1);obj(2001552519.@future,1007707451.@pl);qua(1007707451.@pl,3002267308)"
+        ], 
+        "wordslearnt": [
+            "1015167027", 
+            "2000345761"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 9, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We can start cooking in the night."
+        ], 
+        "unl": [
+            "agt(2000345761.@ability,00.@1.@pl);obj(2000345761.@ability,2001665638);tim(2001665638,1015167027.@def)"
+        ], 
+        "wordslearnt": [
+            "1013149506", 
+            "1015010703"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 10, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Can you get me the salt and the pepper?"
+        ], 
+        "unl": [
+            "agt(2002210855.@ability.@interrogative,00.@2);obj(2002210855.@ability.@interrogative,1015010703.@def);ben(2002210855.@ability.@interrogative,00.@1);and(1015010703.@def,1013149506.@def)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 11, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We must cook before the animals come."
+        ], 
+        "unl": [
+            "agt(2001665638.@obligation,00.@1.@pl);tim(2001665638.@obligation,2001849221.@before);agt(2001849221.@before,1000015388.@pl.@def)"
+        ], 
+        "wordslearnt": [
+            "3001930512", 
+            "4000073033"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 12, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The food is almost ready now."
+        ], 
+        "unl": [
+            "agt(2002604760,1000021265.@def);obj(2002604760,3001930512);qua(3001930512,4000073033);tim(2002604760,4000049433)"
+        ], 
+        "wordslearnt": [
+            "1003932203"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 13, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The bear said that he must have the biggest piece."
+        ], 
+        "unl": [
+            "agt(2001009240.@past,1002131653.@def);cnt(2001009240.@past,2002203362.@obligation);agt(2002203362.@obligation,00.@3.@male);obj(2002203362.@obligation,1003932203.@def);mod(1003932203.@def,3001382086.@most)"
+        ], 
+        "wordslearnt": [
+            "2002169702"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 14, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Can't you hear them?"
+        ], 
+        "unl": [
+            "agt(2002169702.@ability.@interrogative.@not,00.@2);obj(2002169702.@ability.@interrogative.@not,00.@3.@pl)"
+        ], 
+        "wordslearnt": [
+            "3001010862"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 15, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He may come here first."
+        ], 
+        "unl": [
+            "agt(2001849221.@hypothesis,00.@3.@male);to(2001849221.@hypothesis,00.@proximal.@place);tim(2001849221.@hypothesis,3001010862)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 16, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We must keep some food for the other animals."
+        ], 
+        "unl": [
+            "agt(2002681795.@obligation,00.@1.@pl);obj(2002681795.@obligation,1000021265);qua(1000021265,3002267308);ben(2002681795.@obligation,1000015388.@def.@pl);mod(1000015388.@def.@pl,3002069355)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 17, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The monkeys may come later tonight."
+        ], 
+        "unl": [
+            "agt(2001849221.@hypothesis,1002484322.@def.@pl);tim(2001849221.@hypothesis,1015263045);mod(1015263045,3000123485)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 18, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "It was the tastiest food."
+        ], 
+        "unl": [
+            "agt(2002604760.@past,00.@3.@neuter);obj(2002604760.@past,1000021265.@def);mod(1000021265.@def,3002395115.@most)"
+        ], 
+        "wordslearnt": [
+            "00.@every"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 19, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We ate everything."
+        ], 
+        "unl": [
+            "agt(2001168468.@past,00.@1.@pl);obj(2001168468.@past,00.@every)"
+        ], 
+        "wordslearnt": [
+            "3001361863"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 20, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I felt sad because the tiger couldn't eat his favorite food."
+        ], 
+        "unl": [
+            "agt(2001771535.@past,00.@1);man(2001771535.@past,3001361863);rsn(2001771535.@past,2001168468.@ability.@not.@past);agt(2001168468.@ability.@not.@past,1002129604.@def);obj(2001168468.@ability.@not.@past,1000021265);pos(1000021265,00.@3.@male);mod(1000021265,3001816376)"
+        ], 
+        "wordslearnt": [
+            "00.@some", 
+            "3002064745"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 21, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We must cook something different tomorrow."
+        ], 
+        "unl": [
+            "agt(2001665638.@obligation,00.@1.@pl);obj(2001665638.@obligation,3002064745);tim(2001665638.@obligation,1015155891);mod(3002064745,00.@some)"
+        ], 
+        "wordslearnt": [
+            "3001343918", 
+            "3001674242", 
+            "3002068476"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 22, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We can't eat the same food everyday because we want something interesting."
+        ], 
+        "unl": [
+            "agt(2001168468.@ability.@not,00.@1.@pl);obj(2001168468.@ability.@not,1000021265.@def);mod(1000021265.@def,3002068476);tim(2001168468.@ability.@not,3001674242);rsn(2001168468.@ability.@not,2001825237);agt(2001825237,00.@1.@pl);obj(2001825237,3001343918);mod(3001343918,00.@some)"
+        ], 
+        "wordslearnt": [
+            "1015209413", 
+            "4000054212"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust"
+        ], 
+        "index": 23, 
+        "level": 9, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We will make more food next month and call them again."
+        ], 
+        "unl": [
+            "agt(2102560585.@future,00.@1.@pl);obj(2102560585.@future,1000021265);tim(2102560585.@future,1015209413);mod(1015209413,4000054212);qua(1000021265,3001555133);and(2102560585.@future,2001028748);obj(2001028748,00.@3.@pl);tim(2001028748,4000040365)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 1, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Where have you been?"
+        ], 
+        "unl": [
+            "agt(2002604760.@continuous.@anterior.@interrogative,00.@2);plc(2002604760.@continuous.@anterior.@interrogative,00.@wh)"
+        ], 
+        "wordslearnt": [
+            "3001275562"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 2, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I want to share something important with you."
+        ], 
+        "unl": [
+            "agt(2001825237,00.@1);obj(2001825237,2002718309);obj(2002718309,3001275562);cag(2002718309,00.@2);mod(3001275562,00.@some)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 3, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I have been searching for the elephant."
+        ], 
+        "unl": [
+            "agt(2001315613.@continuous.@anterior,00.@1);obj(2001315613.@continuous.@anterior,1002503517.@def)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 4, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Do you know that the elephant has run away?"
+        ], 
+        "unl": [
+            "agt(2000594621.@interrogative,00.@2);cnt(2000594621.@interrogative,2001926311.@anterior);agt(2001926311.@anterior,1002503517.@def);to(2001926311.@anterior,4000232936)"
+        ], 
+        "wordslearnt": [
+            "1009827683", 
+            "1100007846", 
+            "3001125429"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 5, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The bad people have taken his baby to the forest."
+        ], 
+        "unl": [
+            "agt(2002599636.@anterior,1100007846.@def.@pl);obj(2002599636.@anterior,1009827683);to(2002599636.@anterior,1008438533.@def);mod(1100007846.@def.@pl,3001125429);pos(1009827683,00.@3.@male)"
+        ], 
+        "wordslearnt": [
+            "1010285313", 
+            "1010287213"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 6, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "The young men and boys were hiding the baby."
+        ], 
+        "unl": [
+            "agt(2002144835.@past.@continuous,1010287213.@pl.@def);mod(1010287213.@pl.@def,3001646941);and(1010287213.@pl.@def,1010285313.@pl);obj(2002144835.@past.@continuous,1009827683.@def)"
+        ], 
+        "wordslearnt": [
+            "1015156187", 
+            "2000689344"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 7, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "I think that they had come here yesterday."
+        ], 
+        "unl": [
+            "agt(2000689344,00.@1);cnt(2000689344,2001849221.@past.@anterior);agt(2001849221.@past.@anterior,00.@3.@pl);to(2001849221.@past.@anterior,00.@proximal.@place);tim(2001849221.@past.@anterior,1015156187)"
+        ], 
+        "wordslearnt": [
+            "00.@some.@animate", 
+            "2000014742"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 8, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Someone has taken her away when she was sleeping."
+        ], 
+        "unl": [
+            "agt(2002599636.@anterior,00.@some.@animate);obj(2002599636.@anterior,00.@3.@female);to(2002599636.@anterior,4000232936);tim(2002599636.@anterior,2000014742.@past.@continuous);agt(2000014742.@past.@continuous,00.@3.@female)"
+        ], 
+        "wordslearnt": [
+            "3000079629", 
+            "4000037226"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 9, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "She must have been really scared."
+        ], 
+        "unl": [
+            "agt(2002604760.@anterior.@obligation,00.@3.@female);obj(2002604760.@anterior.@obligation,3000079629);mod(3000079629,4000037226)"
+        ], 
+        "wordslearnt": [
+            "2002550868"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 10, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He couldn't save his baby."
+        ], 
+        "unl": [
+            "agt(2002550868.@past.@ability.@not,00.@3.@male);obj(2002550868.@past.@ability.@not,1009827683);pos(1009827683,00.@3.@male)"
+        ], 
+        "wordslearnt": [
+            "2002287789"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 11, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He didn't want to lose his baby."
+        ], 
+        "unl": [
+            "agt(2001825237.@past.@not,00.@3.@male);obj(2001825237.@past.@not,2002287789);obj(2002287789,1009827683);pos(1009827683,00.@3.@male)"
+        ], 
+        "wordslearnt": [
+            "00.@any.@animate"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 12, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Couldn't anyone have helped him?"
+        ], 
+        "unl": [
+            "agt(2002547586.@past.@ability.@interrogative.@anterior.@not,00.@any.@animate);obj(2002547586.@past.@ability.@interrogative.@anterior.@not,00.@3.@male)"
+        ], 
+        "wordslearnt": [
+            "2002627934"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 13, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We need to help him."
+        ], 
+        "unl": [
+            "agt(2002627934,00.@1.@pl);obj(2002627934,2002547586);obj(2002547586,00.@3.@male)"
+        ], 
+        "wordslearnt": [
+            "1005833840", 
+            "3001640850"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 14, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He got a new idea later."
+        ], 
+        "unl": [
+            "agt(2002210855.@past,00.@3.@male);obj(2002210855.@past,1005833840.@indef);tim(2002210855.@past,3000123485);mod(1005833840.@indef,3001640850)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 15, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He thought that we must save the baby."
+        ], 
+        "unl": [
+            "agt(2000689344.@past,00.@3.@male);cnt(2000689344.@past,2002550868.@obligation);agt(2002550868.@obligation,00.@1.@pl);obj(2002550868.@obligation,1009827683.@def)"
+        ], 
+        "wordslearnt": [
+            "1007942152"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 16, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "He said that everyone must listen to him."
+        ], 
+        "unl": [
+            "agt(2001009240.@past,00.@3.@male);cnt(2001009240.@past,2002169891.@obligation);agt(2002169891.@obligation,1007942152);obj(2002169891.@obligation,00.@3.@male)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 17, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Everyone must help him find the baby."
+        ], 
+        "unl": [
+            "agt(2002547586.@obligation,1007942152);obj(2002547586.@obligation,00.@3.@male);pur(2002547586.@obligation,2002248465);obj(2002248465,1009827683.@def)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 18, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We searched and found the baby."
+        ], 
+        "unl": [
+            "agt(2001315613.@past,00.@1.@pl);obj(2002248465.@past,1009827683.@def);and(2001315613.@past,2002248465.@past)"
+        ], 
+        "wordslearnt": [
+            "2002413480", 
+            "3000749230"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 19, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "It was easy to find her because we had worked hard."
+        ], 
+        "unl": [
+            "agt(2002604760.@past,00.@3.@neuter);obj(2002604760.@past,3000749230);pur(2002604760.@past,2002248465);obj(2002248465,00.@3.@female);rsn(2002604760.@past,2002413480.@past.@anterior);agt(2002413480.@past.@anterior,00.@1.@pl);man(2002413480.@past.@anterior,3000744916)"
+        ], 
+        "wordslearnt": []
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 20, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We have brought the little baby elephant back."
+        ], 
+        "unl": [
+            "agt(2002077656.@anterior,00.@1.@pl);to(2002077656.@anterior,4000131692);obj(2002077656.@anterior,1002503517.@def);mod(1002503517.@def,1009827683);mod(1009827683,3101391351)"
+        ], 
+        "wordslearnt": [
+            "3002267686"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 21, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "Had she eaten any food?"
+        ], 
+        "unl": [
+            "agt(2001168468.@past.@anterior.@interrogative,00.@3.@female);obj(2001168468.@past.@anterior.@interrogative,1000021265);mod(1000021265,3002267686)"
+        ], 
+        "wordslearnt": [
+            "1013740168"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 22, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "She had eaten nothing yesterday."
+        ], 
+        "unl": [
+            "agt(2001168468.@past.@anterior,00.@3.@female);obj(2001168468.@past.@anterior,1013740168);tim(2001168468.@past.@anterior,1015156187)"
+        ], 
+        "wordslearnt": [
+            "3001555416"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 23, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "She has been eating less food today."
+        ], 
+        "unl": [
+            "agt(2001168468.@anterior.@continuous,00.@3.@female);obj(2001168468.@anterior.@continuous,1000021265);qua(1000021265,3001555416);tim(2001168468.@anterior.@continuous,1015262921)"
+        ], 
+        "wordslearnt": [
+            "3000189017", 
+            "3002541302"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 24, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "She has been sick and sleepy."
+        ], 
+        "unl": [
+            "agt(2002604760.@anterior,00.@3.@female);obj(2002604760.@anterior,3002541302);and(3002541302,3000189017)"
+        ], 
+        "wordslearnt": [
+            "4001553629"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 25, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "She couldn't eat much food."
+        ], 
+        "unl": [
+            "agt(2001168468.@not.@past.@ability,00.@3.@female);obj(2001168468.@not.@past.@ability,1000021265);mod(1000021265,4001553629)"
+        ], 
+        "wordslearnt": [
+            "3001581305"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 26, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "We have been giving her extra fruits."
+        ], 
+        "unl": [
+            "agt(2002316868.@anterior.@continuous,00.@1.@pl);obj(2002316868.@anterior.@continuous,1013134947.@pl);ben(2002316868.@anterior.@continuous,00.@3.@female);qua(1013134947.@pl,3001581305)"
+        ], 
+        "wordslearnt": [
+            "3002321009"
+        ]
+    }, 
+    {
+        "filters": [
+            "def", 
+            "not", 
+            "plural", 
+            "ing", 
+            "polar", 
+            "tense", 
+            "qword", 
+            "places", 
+            "most", 
+            "maycanmust", 
+            "perfect"
+        ], 
+        "index": 27, 
+        "level": 10, 
+        "mode": "one-translation", 
+        "n_sentences": 1, 
+        "responses": [], 
+        "sentences": [
+            "She is feeling strong and happy now."
+        ], 
+        "unl": [
+            "agt(2001771535.@continuous,00.@3.@female);man(2001771535.@continuous,3002321009);and(3002321009,3001148283);tim(2001771535.@continuous,4000049433)"
+        ], 
+        "wordslearnt": []
+    }
+]

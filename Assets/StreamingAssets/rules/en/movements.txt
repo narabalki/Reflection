@@ -1,0 +1,11 @@
+moveDPfromVPtoIP
+moveDPfromIPtoIP
+moveDPofDTRAtoS
+copyAgreementStoH
+copyPosToNP
+handleInternalCP
+!rel:createCP
+rel:createCPrel
+removeDo
+copyRelForConjunction
+suppressBareP

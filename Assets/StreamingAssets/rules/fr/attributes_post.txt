@@ -1,0 +1,2 @@
+# Post-graph-rule attributes
+V if @infinitive @infinitiven @infinitiveg remove @past @future @ability @obligation @hypothesis @simple add @present

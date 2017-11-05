@@ -1,0 +1,50 @@
+and(x,y)|x;[x=DP]|y;[y=DP] -> x(Ar4:a(H:h,C:y));[h=and,a=CP,x.@pl=!NULL,x.@singular=NULL,y.@copyrel=!NULL]|x #Apples and oranges
+and(x,y)|x;[x=IP]|y;[y=IP] -> x(Ar4:a(H:h,Ar1:y));[h=and,a=CP]|x #eating and drinking -- question - should this be with IPs or VPs
+and(x,y)|x;[x=MP]|y;[y=MP] -> x(Ar4:a(H:h,Ar1:y));[h=and,a=CP]|x #happy and prosperous
+#and(x,y)|x;[x=XP]|y;[y=XP] -> x(Ar4:a(H:h,Ar1:y));[h=and,a=CP]|x #anything and anything
+agt(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(S:y)|x # substitute y in the spec of the first VP in the complement chain of the IP
+-obj(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=XP] -> z(C:y)|x # substitute y in the (lowest) complement - works for tra and ditra, and for y=NP,JP and VP
+-gol(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar1:c(H:h,C:y));[c=PP,h=to,c.DTRA=!NULL]|x #
+-ben(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar1:c(H:h,C:y));[c=PP,h=for,c.DTRA=!NULL]|x #
+-cnt(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(C:a(H:h,C:y));[a=PP,h=about]|x # I talked about her #
+-cnt(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=IP,y.@quote=!NULL] -> z(C:a(H:h,C:y));[a=CP,h='q]|x # I said, "he was sleeping"
+-cnt(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=IP] -> z(C:a(H:h,C:y));[a=CP,h=that]|x # I said that he was sleeping
+-to(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP,y.@direction=!NULL] -> z(Ar1:c(H:h,C:y));[c=PP,h=(to)]|x
+-to(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar1:c(H:h,C:y));[c=PP,h=to]|x # !!1
+-to(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(Ar1:y)|x
+-to(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=MP] -> z(Ar1:c(H:h,C:y));[c=PP,h=(to)]|x
+-frm(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar1:c(H:h,C:y));[c=PP,h=from]|x
+-frm(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(Ar1:y)|x
+plc(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(Ar2:y)|x #(x = He saw) when (y = he woke up)
+plc(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP,y.@direction=!NULL] -> z(Ar2:a(H:h,C:y));[a=PP,h=at]|x
+plc(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar2:a(H:h,C:y));[a=PP,h=in]|x
+plc(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=MP] -> z(Ar2:y)|x #I fall down
+plc(x,y)|x(C*:z);[x=DP,z=NP]|y;[y=PP] -> z(Ar2:y)|x #the boy in my house (Check: does it adjoin NP or DP?)
+plc(x,y)|x(C*:z);[x=DP,z=NP]|y;[y=DP,y.@direction=!NULL] -> z(Ar2:a(H:h,C:y));[a=PP,h=at]|x
+plc(x,y)|x(C*:z);[x=DP,z=NP]|y;[y=DP] -> z(Ar2:a(H:h,C:y));[a=PP,h=in]|x
+pos(x,y)|x;[x=DP]|y;[y=DP] -> x(S:y);[x._pos=!NULL]|x #pos(sister,brother) = Brother's sister
+pos(x,y)|x(C:z(C*:n));[x=PP,z=DP,n=NP]|y;[y=DP] -> z(S:y);[z._pos=!NULL]|x # in my house
+tim(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP,y.@time_prep_none=!NULL] -> z(Ar3:y)|x #(x = He saw) (y = today) !!2
+tim(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=XP,y.@wh=!NULL] -> z(Ar2:y)|x #(x = He saw) (y = today)
+tim(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar2:a(H:h,C:y));[a=PP,h=in]|x #(x = He saw) (y = day)
+tim(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(Ar2:y)|x #(x = He saw) (y = during the morning)
+tim(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=IP] -> z(Ar2:a(H:h,C:y));[h=when,a=CP]|x #(x = He saw) when (y = he woke when I called him) !!2
+tim(x,y)|x(C*:n);[x=IP,n=VP]|y(C*:z);[y=MP,z=AP,z.LEFT=!NULL] -> n(Al2:y)|x #He sang finally - similar to man
+tim(x,y)|x(C*:n);[x=IP,n=VP]|y;[y=MP] -> n(Ar2:y)|x #He sang finally - similar to man
+mod(x,y)|x(C*:n);[x=DP,n=NP]|y;[y=MP] -> n(Al3:y)|x # (left) Adjoin y to the noun phrase under the DP
+mod(x,y)|x(C*:n);[x=DP,n=NP]|y;[y=DP] -> n(Al3:y)|x # e.g. baby brother
+mod(x,y)|x(C:z(C*:n));[x=PP,z=DP,n=NP]|y;[y=MP] -> n(Al3:y)|x # mod(house.@in, red) = In a red house
+mod(x,y)|x(C:z(C*:n));[x=PP,z=DP,n=NP]|y;[y=DP] -> n(Al3:y)|x # mod(brother.@near, baby) = near the baby brother
+man(x,y)|x(C*:n);[x=IP,n=VP]|y(C*:z);[y=MP,z=AP,z.LEFT=!NULL] -> n(Al3:y)|x #He always sang beautifully - Similar but distinct to mod
+man(x,y)|x(C*:n);[x=IP,n=VP]|y;[y=MP] -> n(Ar3:y)|x #He sang most beautifully - Similar but distinct to mod
+pur(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=IP] -> z(Ar2:y)|x
+pur(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar2:c(H:h,C:y));[c=PP,h=for]|x
+cag(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar3:a(H:h,C:y));[a=PP,h=with]|x
+ins(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar3:a(H:h,C:y));[a=PP,h=with]|x
+aoj(x,y)|x;[x=MP]|y;[y=DP] -> i(S:a,H:h1,C:z(S:y,C:x,H:h2));[i=IP,a=XP,h1=do,z=VP,h2=be,z._present=!NULL]|i #He is hungry
+aoj(x,y)|x;[x=DP]|y;[y=DP] -> i(S:a,H:h1,C:z(S:y,C:x,H:h2));[i=IP,a=XP,h1=do,z=VP,h2=be,z._present=!NULL]|i #He is my father
+rsn(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=IP,z.@infiniteveg=!NULL,z.@interrogative=NULL] -> z(Ar4:c(H:h,C:y));[c=PP,h=for]|x
+rsn(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=IP] -> z(Ar4:c(C:y));[c=PP]|x
+rsn(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar4:c(H:h,C:y));[c=PP,h=because of]|x
+qua(x,y)|x(C*:n);[x=DP,n=NP]|y;[y=NumP] -> n(Al1:y)|x # (left) Adjoin y to the noun phrase under the DP, outermost
+qua(x,y)|x(C*:n);[x=IP,n=VP]|y;[y=AP] -> n(Ar1:y)|x # 4 times

@@ -1,0 +1,900 @@
+and A A
+and J J
+and N N
+and V V
+aoj J N
+cag V N.@animate
+ins V N.!@animate
+man V A
+mod N J
+plc N N.@place
+plc V N.@place
+pos N N
+qua N N.@number
+qua V N.@number
+rsn V N
+rsn V V
+tim V A.@time
+tim V N.@time
+tim V V
+agt 200784727 N.@animate     # ask
+gol 200784727 N.@animate     # ask
+cnt 200784727 N     # ask
+pur 200784727 N     # ask
+obj 200784727 N.@communication     # ask
+agt 202604760 N     # be
+obj 202604760 N     # be
+agt 200149583 N     # become
+obj 200149583 N     # become
+agt 202077656 N.@animate     # bring
+obj 202077656 N     # bring
+gol 202077656 N.@animate     # bring
+ben 202077656 N.@animate     # bring
+plc 202077656 N.@place     # bring
+to 202077656 N     # bring
+agt 200789448 N.@animate     # call
+gol 200789448 N.@animate     # call
+obj 200789448 N     # call
+agt 202601456 N.@animate     # call
+gol 202601456 N.@animate     # call
+obj 202601456 N     # call
+pur 202601456 V     # call
+agt 202005948 N.@animate     # come
+to 202005948 N.@place     # come
+frm 202005948 N.@place     # come
+agt 200912048 N.@animate     # cry
+rsn 200912048 N     # cry
+rsn 200912048 V     # cry
+agt 201712704 N.@animate     # do
+ben 201712704 N     # do
+obj 201712704 N     # do
+agt 201170052 N.@animate     # drink
+obj 201170052 N     # drink
+agt 201168468 N.@animate     # eat
+obj 201168468 N     # eat
+agt 201972298 N     # fall
+plc 201972298 N.@place     # fall
+agt 201771535 N.@animate     # feel
+obj 201771535 N     # feel
+obj 201771535 J     # feel
+cnt 201771535 N     # feel
+cnt 201771535 V     # feel
+agt 202210855 N.@animate     # get
+obj 202210855 N     # get
+ben 202210855 N     # get
+pur 202210855 V     # get
+agt 202316868 N.@animate     # give
+obj 202316868 N     # give
+gol 202316868 N.@animate     # give
+agt 201835496 N     # go
+to 201835496 N.@place     # go
+agt 202203362 N     # have
+obj 202203362 N     # have
+agt 202169702 N.@animate     # hear
+cnt 202169702 N     # hear
+cnt 202169702 V     # hear
+obj 202169702 N.@communication     # hear
+agt 202547586 N.@animate     # help
+pur 202547586 N     # help
+pur 202547586 V     # help
+obj 202547586 N     # help
+agt 201405044 N.@animate     # hit
+obj 201405044 N     # hit
+agt 200594337 N.@animate     # know
+obj 200594337 N     # know
+cnt 200594337 N     # know
+cnt 200594337 V     # know
+agt 200598954 N.@animate     # learn
+cnt 200598954 N     # learn
+obj 200598954 N     # learn
+obj 200598954 V     # learn
+agt 202423183 N.@animate     # let
+gol 202423183 N     # let
+obj 202423183 V     # let
+agt 201777210 N.@animate     # like
+obj 201777210 N     # like
+obj 201777210 V     # like
+cnt 201777210 N     # like
+cnt 201777210 V     # like
+agt 202649830 N.@animate     # live
+plc 202649830 N.@place     # live
+agt 201775164 N.@animate     # love
+obj 201775164 N     # love
+obj 201775164 V     # love
+cnt 201775164 N     # love
+cnt 201775164 V     # love
+agt 201617192 N.@animate     # make
+ben 201617192 N.@animate     # make
+gol 201617192 N.@animate     # make
+obj 201617192 N     # make
+obj 201617192 V     # make
+ins 201617192 N.!@animate     # make
+agt 201617193 N.@animate     # make
+ben 201617193 N.@animate     # make
+gol 201617193 N.@animate     # make
+obj 201617193 N     # make
+obj 201617193 V     # make
+obj 201617193 J     # make
+ins 201617193 N.!@animate     # make
+agt 201072949 N.@animate     # play
+obj 201072949 N     # play
+ins 201072949 N.!@animate     # play
+cag 201072949 N.@animate     # play
+agt 201494310 N.@animate     # put
+obj 201494310 N     # put
+plc 201494310 N.@place     # put
+agt 202756558 N    # rain
+agt 200625119 N.@animate     # read
+obj 200625119 N     # read
+cnt 200625119 N     # read
+cnt 200625119 V     # read
+agt 200607780 N.@animate     # remember
+obj 200607780 N     # remember
+cnt 200607780 N     # remember
+cnt 200607780 V     # remember
+agt 201957529 N.@animate     # ride
+obj 201957529 N     # ride
+to 201957529 N.@place     # ride
+agt 200979870 N.@animate     # say
+cnt 200979870 N     # say
+cnt 200979870 V     # say
+obj 200979870 N.@communication     # say
+agt 202129289 N.@animate     # see
+obj 202129289 N     # see
+agt 201543123 N.@animate     # sit
+plc 201543123 N.@place     # sit
+agt 200014742 N.@animate     # sleep
+plc 200014742 N.@place     # sleep
+agt 200345761 N     # start
+obj 200345761 N     # start
+obj 200345761 V     # start
+agt 202680814 N     # stop
+obj 202680814 N     # stop
+obj 202680814 V     # stop
+agt 202599636 N.@animate     # take
+obj 202599636 N     # take
+to 202599636 N.@place     # take
+agt 202599636 N.@animate     # take1
+obj 202599636 N     # take1
+ben 202599636 N     # take1
+agt 200962447 N.@animate     # talk
+cnt 200962447 N     # talk
+gol 200962447 N.@animate     # talk
+agt 201009240 N.@animate     # tell
+gol 201009240 N     # tell
+cnt 201009240 N     # tell
+cnt 201009240 V     # tell
+obj 201009240 N     # tell
+obj 201009240 V     # tell
+agt 200892315 N.@animate     # thank
+obj 200892315 N     # thank
+rsn 200892315 N     # thank
+rsn 200892315 V     # thank
+agt 200689344 N.@animate     # think
+cnt 200689344 N     # think
+agt 202530167 N.@animate     # try
+obj 202530167 N     # try
+obj 202530167 V     # try
+agt 201158872 N.@animate     # use
+obj 201158872 N     # use
+pur 201158872 V     # use
+pur 201158872 N     # use
+agt 201904930 N.@animate     # walk
+to 201904930 N.@place     # walk
+agt 201825237 N.@animate     # want
+obj 201825237 N     # want
+obj 201825237 V     # want
+agt 201825238 N.@animate     # want
+obj 201825238 N     # want
+obj 201825238 V     # want
+cnt 201825238 N     # want
+cnt 201825238 V     # want
+gol 201825238 N.@animate     # want
+agt 202413480 N.@animate     # work
+agt 202413480 N     # work
+obj 202413480 N     # work
+ben 202413480 N     # work
+agt 200993014 N.@animate     # write
+obj 200993014 N     # write
+cnt 200993014 N     # write
+cnt 200993014 V     # write
+agt 201346003 N.@animate #open
+obj 201346003 N
+obj 200001740 N
+agt 200001740 N.@animate
+agt 200005526 N.@animate
+obj 200005815 N
+agt 200005815 N.@animate
+obj 200014742 N
+agt 200014742 N.@animate
+agt 200028167 N.@animate
+obj 200028167 N.@body_part
+obj 200028167 N.@communication
+agt 200028565 N.@animate
+obj 200028565 N.@animate
+obj 200028565 N.@communication
+agt 200031820 N.@animate
+obj 200031820 N.@animate
+obj 200031820 N.@communication
+agt 200035603 N.@animate
+obj 200035603 N.@animate
+obj 200035603 N.@refl
+agt 200037298 N.@animate
+obj 200037298 N.@animate
+obj 200037298 N.@refl
+agt 200052374 N.@animate
+obj 200052374 N.@garment
+obj 200074834 N
+agt 200074834 N.@animate
+agt 200091124 N.@animate
+obj 200091124 N.@body_part
+obj 200117985 N
+plc 200117985 N.@location.!@region
+xxx 200120316 N
+agt 200120316 N.@animate
+obj 200120316 N.@concrete
+agt 200120316 N.@organization
+obj 200120316 N.@organization
+ins 200126264 N
+obj 200126264 N
+agt 200126264 N.@int_control
+agt 200173338 N.@animate
+obj 200173338 N.@animate
+frm 200173338 N.@location
+to 200173338 N.@location.!@region
+agt 200173338 N.@organization
+obj 200182406 N.@concrete
+agt 200182406 N.@int_control
+obj 200231557 N
+plc 200231557 N.@location.!@region
+agt 200301662 N.@animate
+obj 200301662 N.@concrete
+agt 200319886 N.@animate
+obj 200319886 N.@concrete
+ins 200319886 N.@solid
+agt 200324560 N.@animate
+obj 200324560 N.@concrete
+ins 200324560 N.@solid
+agt 200325328 N.@animate
+obj 200325328 N.@concrete
+ins 200325328 N.@solid
+agt 200334186 N.@int_control
+ins 200334186 N.@solid
+obj 200334186 N.@solid
+ins 200345761 N
+obj 200345761 N
+agt 200345761 N.@animate
+agt 200345761 N.@organization
+frm 200358431 N
+obj 200358431 N
+agt 200378664 N.@animate
+obj 200378664 N.@body_part
+obj 200378664 N.@refl
+obj 200394813 N.@concrete
+agt 200394813 N.@int_control
+agt 200452512 N.@animate
+obj 200452512 N.@concrete
+to 200452512 N.@location.!@region
+ins 200458471 N
+obj 200458471 N
+agt 200458471 N.@int_control
+ins 200484166 N
+obj 200484166 N
+agt 200484166 N.@animate
+agt 200484166 N.@organization
+cnt 200597915 N
+frm 200597915 N
+agt 200597915 N.@animate
+xxx 200607780 N
+agt 200607780 N.@animate
+obj 200607780 N.@concrete
+agt 200607780 N.@organization
+obj 200607780 N.@organization
+obj 200614057 N.@animate
+frm 200614057 N.@location.!@region
+cnt 200625119 N
+frm 200625119 N
+agt 200625119 N.@animate
+obj 200647094 N
+qua 200647094 N
+agt 200647094 N.@animate
+agt 200661824 N
+agt 200661824 N.@animate
+obj 200664788 N
+xxx 200664788 N
+agt 200664788 N.@animate
+agt 200664788 N.@organization
+obj 200672433 N
+xxx 200672433 N
+agt 200672433 N.@animate
+agt 200672433 N.@organization
+obj 200674607 N
+qua 200674607 N.!@location.!@region
+agt 200674607 N.@animate
+ben 200674607 N.@animate
+frm 200674607 N.@concrete
+agt 200674607 N.@organization
+ben 200674607 N.@organization
+obj 200708538 N
+xxx 200708538 N
+agt 200708538 N.@animate
+agt 200708538 N.@organization
+obj 200715239 N
+xxx 200715239 N
+agt 200715239 N.@animate
+agt 200715239 N.@organization
+agt 200759944 N
+obj 200759944 N
+cnt 200773432 N
+agt 200773432 N.@animate
+agt 200773432 N.@organization
+cnt 200804802 N
+agt 200804802 N.@animate
+agt 200804802 N.@organization
+obj 200805376 N
+agt 200805376 N.@animate
+agt 200805376 N.@organization
+cnt 200829107 N
+frm 200829107 N
+agt 200829107 N.@animate
+obj 200829107 N.@animate
+agt 200829107 N.@organization
+obj 200829107 N.@organization
+agt 200871195 N.@animate
+obj 200871195 N.@animate
+cnt 200871195 N.@communication
+agt 200871195 N.@organization
+obj 200871195 N.@organization
+obj 200884317 N
+obj 200884317 N.@abstraction
+agt 200884317 N.@animate
+obj 200884317 N.@animate
+agt 200884317 N.@organization
+obj 200884317 N.@organization
+obj 200892315 N
+xxx 200892315 N
+agt 200892315 N.@human
+agt 200907147 N.@animate
+obj 200907147 N.@animate
+cnt 200907147 N.@communication
+agt 200907147 N.@organization
+obj 200907147 N.@organization
+agt 200913065 N
+obj 200913065 N
+plc 200913065 N
+obj 200913065 N.!@animate
+agt 200913065 N.@animal
+agt 200913065 N.@animate
+agt 200915830 N.@animate
+obj 200915830 N.@animate
+cnt 200915830 N.@communication
+agt 200915830 N.@organization
+obj 200915830 N.@organization
+cnt 200939277 N
+frm 200939277 N
+agt 200939277 N.@animate
+obj 200939277 N.@animate
+agt 200939277 N.@organization
+obj 200939277 N.@organization
+agt 200941990 N.@animate
+cnt 200941990 N.@communication
+agt 200941990 N.@organization
+agt 200962447 N.@animate
+cnt 200962447 N.@communication
+agt 200962447 N.@organization
+agt 201009240 N.@animate
+obj 201009240 N.@animate
+cnt 201009240 N.@communication
+agt 201009240 N.@organization
+obj 201009240 N.@organization
+agt 201020005 N.@animate
+obj 201020005 N.@animate
+cnt 201020005 N.@communication
+agt 201020005 N.@organization
+obj 201020005 N.@organization
+xxx 201028748 N
+agt 201028748 N.@animate
+obj 201028748 N.@concrete
+agt 201028748 N.@organization
+obj 201028748 N.@organization
+agt 201055018 N
+obj 201055018 N
+plc 201055018 N
+agt 201055018 N.@animal
+agt 201090335 N.@animate
+obj 201143838 N
+plc 201143838 N
+agt 201143838 N.@animate
+plc 201158872 N
+qua 201158872 N
+agt 201158872 N.@animate
+frm 201168468 N
+agt 201168468 N.@animate
+obj 201168468 N.@comestible.@solid
+frm 201170052 N
+agt 201170052 N.@animate
+obj 201170052 N.@comestible.!@solid
+agt 201182021 N.@animate
+obj 201182021 N.@animate
+obj 201182021 N.@comestible
+obj 201188725 N
+xxx 201188725 N
+agt 201188725 N.@animate
+agt 201201089 N.@animate
+obj 201201089 N.@comestible.@solid
+agt 201201856 N.@animate
+obj 201201856 N.@comestible.!@solid
+agt 201206218 N.@body_part
+agt 201206218 N.@int_control
+agt 201206218 N.@refl
+ins 201206218 N.@solid
+agt 201216670 N.@animate
+obj 201216670 N.@body_part
+agt 201236795 N
+plc 201236795 N
+obj 201236795 N.!@animate
+agt 201238640 N.@int_control
+obj 201238640 N.@solid
+obj 201256157 N
+agt 201256157 N.@animate
+ben 201256157 N.@animate
+obj 201256157 N.@concrete
+qua 201256157 N.@currency
+agt 201256157 N.@machine
+ben 201256157 N.@organization
+ins 201258091 N.@concrete
+obj 201258091 N.@concrete
+agt 201258091 N.@int_control
+agt 201262564 N.@animate
+obj 201262564 N.@body_part
+obj 201262936 N
+agt 201262936 N.@animate
+frm 201262936 N.@concrete
+agt 201270199 N.@animate
+ben 201270199 N.@animate
+obj 201270199 N.@concrete
+agt 201270199 N.@machine
+agt 201277974 N.@int_control
+ins 201277974 N.@solid
+obj 201277974 N.@solid
+agt 201285440 N.@animate
+ins 201285440 N.@concrete.!@animate
+agt 201285440 N.@machine
+obj 201285440 N.@solid
+obj 201309701 N
+plc 201309701 N
+agt 201309701 N.@animate
+agt 201323958 N.@animate
+obj 201323958 N.@animate
+ins 201323958 N.@concrete
+agt 201332205 N.@animate
+ins 201332205 N.@concrete.!@animate
+agt 201332205 N.@machine
+obj 201332205 N.@solid
+ins 201345109 N
+obj 201345109 N
+agt 201345109 N.@int_control
+agt 201346003 N
+agt 201346003 N.@animate
+obj 201346003 N.@animate
+obj 201346003 N.@body_part
+obj 201346003 N.@communication
+agt 201357831 N.@animate
+ins 201357831 N.@concrete.!@animate
+agt 201357831 N.@machine
+obj 201357831 N.@solid
+to 201371756 N.@animate
+obj 201371756 N.@concrete
+agt 201371756 N.@int_control
+frm 201371756 N.@location
+obj 201380122 N
+plc 201380122 N
+obj 201382083 N
+qua 201382083 N.!@location.!@region
+agt 201382083 N.@animate
+ben 201382083 N.@animate
+frm 201382083 N.@concrete
+agt 201382083 N.@organization
+ben 201382083 N.@organization
+to 201393339 N
+agt 201393339 N.@animate
+ins 201393339 N.@concrete.!@animate
+obj 201393339 N.@concrete.!@animate
+frm 201393339 N.@location
+agt 201393339 N.@machine
+ins 201397210 N.@body_part
+obj 201397210 N.@concrete
+agt 201397210 N.@int_control
+ins 201397210 N.@refl
+to 201405044 N.@animate
+obj 201405044 N.@concrete
+agt 201405044 N.@int_control
+frm 201405044 N.@location
+to 201413173 N.@animate
+obj 201413173 N.@concrete
+agt 201413173 N.@int_control
+frm 201413173 N.@location
+ins 201414288 N.@body_part
+obj 201414288 N.@concrete
+agt 201414288 N.@int_control
+ins 201414288 N.@refl
+agt 201415285 N.@animate
+obj 201415285 N.@concrete
+ins 201415285 N.@solid
+agt 201424456 N.@animate
+agt 201431230 N.@animate
+agt 201432176 N.@animate
+obj 201432176 N.@comestible.@solid
+obj 201439190 N
+qua 201439190 N.!@location.!@region
+agt 201439190 N.@animate
+ben 201439190 N.@animate
+frm 201439190 N.@concrete
+agt 201439190 N.@organization
+ben 201439190 N.@organization
+agt 201445932 N.@animate
+obj 201445932 N.@body_part
+obj 201445932 N.@refl
+to 201448100 N.@animate
+obj 201448100 N.@concrete
+agt 201448100 N.@int_control
+frm 201448100 N.@location
+to 201448100 N.@location.!@region
+to 201449974 N.@animate
+obj 201449974 N.@concrete
+agt 201449974 N.@int_control
+frm 201449974 N.@location
+to 201449974 N.@location.!@region
+agt 201456771 N.@body_part
+agt 201456771 N.@int_control
+agt 201456771 N.@refl
+ins 201456771 N.@solid
+obj 201471043 N
+agt 201471043 N.@animate
+ben 201471043 N.@animate
+frm 201471043 N.@animate
+frm 201471043 N.@location.!@region
+agt 201471043 N.@organization
+agt 201482075 N.@animate
+obj 201482075 N.@concrete
+to 201482075 N.@location.!@region
+agt 201482449 N.@animate
+obj 201482449 N.@concrete.@plural
+to 201482449 N.@location.!@region
+obj 201482449 N.@substance
+ins 201492725 N.@concrete
+obj 201492725 N.@concrete
+agt 201492725 N.@int_control
+obj 201494310 N.@abstraction
+agt 201494310 N.@animate
+to 201494310 N.@location.!@region
+agt 201508368 N
+to 201508368 N.@animate
+obj 201508368 N.@concrete
+agt 201508368 N.@int_control
+frm 201508368 N.@location
+agt 201524523 N.@animate
+obj 201524523 N.@concrete
+to 201524523 N.@location.!@region
+agt 201543123 N.@animate
+obj 201543123 N.@concrete
+to 201543123 N.@location.!@region
+agt 201546111 N.@animate
+obj 201546111 N.@concrete
+plc 201546111 N.@location.!@region
+frm 201552519 N
+obj 201552519 N.@body_part
+ins 201552519 N.@concrete
+agt 201552519 N.@int_control
+obj 201552519 N.@refl
+frm 201559590 N
+obj 201559590 N.@body_part
+ins 201559590 N.@concrete
+agt 201559590 N.@int_control
+obj 201559590 N.@refl
+agt 201573515 N.@int_control
+ins 201573515 N.@solid
+obj 201573515 N.@solid
+obj 201582645 N
+agt 201582645 N.@animate
+ben 201582645 N.@animate
+ins 201593937 N.@concrete
+obj 201593937 N.@concrete
+agt 201593937 N.@int_control
+ins 201593937 N.@solid
+obj 201593937 N.@solid
+obj 201654628 N
+agt 201654628 N.@animate
+ben 201654628 N.@animate
+obj 201654628 N.@concrete
+qua 201654628 N.@currency
+agt 201654628 N.@machine
+ben 201654628 N.@organization
+agt 201664172 N.@animate
+ben 201664172 N.@animate
+obj 201664172 N.@concrete
+agt 201664172 N.@machine
+obj 201665638 N
+agt 201665638 N.@animate
+ben 201665638 N.@animate
+obj 201665638 N.@concrete
+qua 201665638 N.@currency
+agt 201665638 N.@machine
+ben 201665638 N.@organization
+obj 201684899 N
+agt 201684899 N.@animate
+ben 201684899 N.@animate
+obj 201698271 N
+agt 201698271 N.@animate
+ben 201698271 N.@animate
+agt 201731031 N.@animate
+obj 201731031 N.@animate
+cnt 201731031 N.@communication
+agt 201731031 N.@organization
+obj 201731031 N.@organization
+agt 201770501 N
+agt 201770501 N.@animate
+obj 201774136 N
+xxx 201774136 N
+agt 201774136 N.@animate
+obj 201775164 N
+xxx 201775164 N
+agt 201775164 N.@animate
+obj 201777210 N
+xxx 201777210 N
+agt 201777210 N.@animate
+agt 201790020 N
+agt 201790020 N.@animate
+agt 201803380 N
+agt 201803380 N.@animate
+agt 201815628 N
+agt 201815628 N.@animate
+obj 201820302 N
+xxx 201820302 N
+agt 201820302 N.@animate
+agt 201822936 N
+agt 201822936 N.@animate
+obj 201825237 N
+xxx 201825237 N
+agt 201825237 N.@animate
+agt 201826723 N
+obj 201826723 N
+obj 201835496 N.@concrete
+plc 201835496 N.@concrete
+agt 201835496 N.@int_control
+obj 201849221 N.@concrete
+ins 201860795 N
+obj 201860795 N
+agt 201860795 N.@animate
+agt 201860795 N.@organization
+agt 201869563 N.@animate
+obj 201869563 N.@animate
+plc 201869563 N.@concrete
+obj 201869563 N.@machine
+to 201871979 N.@animate
+obj 201871979 N.@concrete
+agt 201871979 N.@int_control
+frm 201871979 N.@location
+agt 201885845 N.@animate
+obj 201885845 N.@animate
+plc 201885845 N.@concrete
+obj 201885845 N.@machine
+agt 201889610 N
+agt 201889610 N.@animate
+obj 201894320 N.@concrete
+agt 201894320 N.@int_control
+plc 201894320 N.@location.!@region
+agt 201904930 N.@animate
+obj 201904930 N.@animate
+plc 201904930 N.@concrete
+obj 201904930 N.@machine
+obj 201912159 N.@concrete
+plc 201912159 N.@concrete
+obj 201921964 N.@concrete
+plc 201921964 N.@concrete
+agt 201925338 N.@animate
+obj 201925338 N.@animate
+plc 201925338 N.@concrete
+obj 201925338 N.@machine
+agt 201926311 N.@animate
+obj 201926311 N.@animate
+plc 201926311 N.@concrete
+obj 201926311 N.@machine
+agt 201930117 N.@animate
+obj 201930117 N.@animate
+plc 201930117 N.@concrete
+agt 201940403 N.@animate
+obj 201940403 N.@animate
+plc 201940403 N.@concrete
+obj 201940403 N.@machine
+agt 201949674 N.@animate
+to 201949674 N.@animate
+obj 201949674 N.@concrete
+frm 201949674 N.@location
+to 201949674 N.@location.!@region
+agt 201949674 N.@vehicle
+agt 201953810 N.@animate
+to 201953810 N.@animate
+obj 201953810 N.@concrete
+frm 201953810 N.@location
+to 201953810 N.@location.!@region
+agt 201953810 N.@organization
+agt 201957529 N.@animate
+obj 201957529 N.@animate
+plc 201957529 N.@concrete
+agt 201960911 N.@animate
+obj 201960911 N.@animate
+plc 201960911 N.@concrete
+obj 201960911 N.@machine
+agt 201963942 N.@animate
+obj 201963942 N.@animate
+plc 201963942 N.@concrete
+obj 201963942 N.@machine
+agt 201966861 N.@animate
+obj 201966861 N.@animate
+plc 201966861 N.@concrete
+obj 201966861 N.@machine
+obj 201972298 N.@concrete
+agt 201974062 N.@animate
+obj 201974062 N.@concrete
+plc 201974062 N.@location.!@region
+agt 201977701 N.@animate
+obj 201977701 N.@concrete
+plc 201977701 N.@location.!@region
+agt 201996735 N.@animate
+obj 201996735 N.@animate
+plc 201996735 N.@concrete
+obj 201996735 N.@machine
+to 201999798 N
+agt 201999798 N.@animate
+obj 201999798 N.@animate
+plc 202001858 N
+agt 202001858 N.@animate
+obj 202001858 N.@concrete
+obj 202004874 N.@concrete
+obj 202016523 N.@concrete
+plc 202016523 N.@concrete
+agt 202023107 N.@animate
+agt 202055649 N.@animate
+obj 202055649 N.@animate
+plc 202055649 N.@concrete
+obj 202055649 N.@machine
+agt 202069551 N.@animate
+obj 202069551 N.@concrete.@plural
+frm 202069551 N.@location.!@region
+plc 202069551 N.@location.!@region
+obj 202069551 N.@substance
+to 202077656 N.@animate
+obj 202077656 N.@concrete
+agt 202077656 N.@int_control
+frm 202077656 N.@location
+obj 202087745 N.@concrete
+plc 202087745 N.@concrete
+agt 202087745 N.@int_control
+agt 202121188 N
+agt 202121188 N.@animate
+obj 202121188 N.@body_part
+agt 202122164 N
+agt 202122164 N.@animate
+obj 202122164 N.@body_part
+agt 202124748 N
+xxx 202124748 N
+agt 202124748 N.@animate
+agt 202129289 N
+xxx 202129289 N
+agt 202129289 N.@animate
+agt 202130524 N
+agt 202130524 N.@animate
+agt 202132745 N
+agt 202132745 N.@animate
+obj 202144835 N
+plc 202144835 N
+agt 202144835 N.@animate
+obj 202144835 N.@animate
+agt 202150510 N
+agt 202150510 N.@animate
+obj 202152504 N
+plc 202152504 N
+agt 202152504 N.@animate
+agt 202162947 N
+plc 202162947 N
+obj 202162947 N.!@animate
+agt 202169702 N
+xxx 202169702 N
+agt 202169702 N.@animate
+agt 202169891 N
+agt 202169891 N.@animate
+agt 202180898 N
+plc 202180898 N
+obj 202180898 N.!@animate
+agt 202194286 N
+agt 202194286 N.@animate
+obj 202207206 N
+qua 202207206 N.!@location.!@region
+agt 202207206 N.@animate
+ben 202207206 N.@animate
+frm 202207206 N.@concrete
+agt 202207206 N.@organization
+ben 202207206 N.@organization
+obj 202210855 N
+qua 202210855 N.!@location.!@region
+frm 202210855 N.@abstraction
+agt 202210855 N.@animate
+ben 202210855 N.@animate
+agt 202210855 N.@organization
+ben 202210855 N.@organization
+obj 202230772 N
+agt 202230772 N.@animate
+obj 202230772 N.@animate
+agt 202230772 N.@organization
+obj 202230772 N.@organization
+obj 202237206 N
+xxx 202237206 N
+agt 202237206 N.@human
+obj 202240481 N
+plc 202240481 N
+agt 202240481 N.@animate
+obj 202242464 N
+qua 202242464 N
+agt 202242464 N.@animate
+obj 202242464 N.@animate
+agt 202242464 N.@organization
+obj 202242464 N.@organization
+qua 202267989 N
+agt 202267989 N.@animate
+obj 202267989 N.@concrete
+agt 202267989 N.@organization
+obj 202285629 N
+qua 202285629 N.!@location.!@region
+agt 202285629 N.@animate
+ben 202285629 N.@animate
+frm 202285629 N.@concrete
+agt 202285629 N.@organization
+ben 202285629 N.@organization
+obj 202288295 N
+qua 202288295 N.!@location.!@region
+agt 202288295 N.@animate
+ben 202288295 N.@animate
+frm 202288295 N.@concrete
+agt 202288295 N.@organization
+ben 202288295 N.@organization
+obj 202312478 N
+agt 202312478 N.@int_control
+frm 202312478 N.@location
+agt 202312478 N.@organization
+obj 202316868 N
+qua 202316868 N
+agt 202316868 N.@animate
+obj 202316868 N.@animate
+agt 202316868 N.@organization
+obj 202316868 N.@organization
+obj 202321757 N
+qua 202321757 N.!@location.!@region
+frm 202321757 N.@abstraction
+agt 202321757 N.@animate
+ben 202321757 N.@animate
+agt 202321757 N.@organization
+ben 202321757 N.@organization
+obj 202324026 N
+agt 202324026 N.@animate
+frm 202324026 N.@concrete
+agt 202324026 N.@organization
+ins 202467662 N
+obj 202467662 N
+agt 202467662 N.@int_control
+ins 202484570 N
+agt 202484570 N.@animate
+obj 202484570 N.@animate
+obj 202488834 N
+agt 202488834 N.@animate
+obj 202488834 N.@animate
+obj 202556126 N
+xxx 202556126 N
+agt 202556126 N.@animate
+obj 202626604 N
+agt 202626604 N.@animate
+agt 202626604 N.@machine
+obj 202637938 N
+plc 202637938 N.@location.!@region
+obj 202649830 N
+plc 202649830 N.@location.!@region

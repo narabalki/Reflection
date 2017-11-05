@@ -1,0 +1,38 @@
+# Case marking
+agt(x,y);[x=V,y=N] -> [y.@case=nominative]
+agt(x,y);[x=V,x.@tra=!NULL,x.@perfective=!NULL,y=N] -> [y.@case=ergative]
+obj(x,y);[x=V,y=N] -> [y.@case=accusative]
+# obj(x,y);[x=V,y=N,y.@animate=!NULL] -> [y.@case=accusative]
+# obj(x,y.@def=!NULL] -> [y.@case=accusative]
+obj(x,y.@indef=!NULL,y.@animate=NULL] -> [y.@case=nominative]
+obj(x,y);[x=V,x.@ditransitive=!NULL,y=N] -> [y.@case=nominative]
+ben(x,y);[x=V,y=N] -> [y.@case=beneficiary]
+pur(x,y);[x=V,y=N] -> [y.@case=beneficiary]
+gol(x,y);[x=V,y=N] -> [y.@case=dative]
+cnt(x,y);[x=V,y=N] -> [y.@case=about]
+rsn(x,y);[x=V,y=N] -> [y.@case=cause]
+cag(x,y);[x=V,y=N] -> [y.@case=with]
+cob(x,y);[x=V,y=N] -> [y.@case=with]
+aoj(x,y);[x=*,y=N] -> [y.@case=nominative, x.@verb=!NULL]
+plc(x,y);[x=V,y=N] -> [y.@case=locative]
+#plc(x,y);[x=N,y=N] -> [y.@case=locative] # ??plc(table, room.@in) -> kamre me mez / kamre ke andar ka 
+obj(x,y);[x=V,x.@tra=!NULL,x.@perfective=!NULL,y=N] -> [y.@case=ergative]
+pos(x,y);[x=N,y=N] -> [y.@case=genetive]
+pos(x,y),pos(y,z);[x=N,y=N,z=N] -> [z.@oblique=!NULL]
+pos(book,brother),pos(brother,Ram) -> [ram is genetive and oblique]
+
+Ram ka bachcha ghar jata hai
+Ram ke bachche(sing) ka kutta ghar jata hai - Ram ka bachcha ka kutta ghar jata hai
+Ram's brother's book
+
+
+agreement (N to V):
+N-@male,@female,@1,@2,@3,@singular,@pl
+agreement (N to J):
+N-@male,@female,@1,@2,@3,@singular,@pl
+mod(x,y);[x=N,y=J] -> y <- x
+Verbs: Go down complement chain for the verb and find first object that is nominative
+
+
+He was happy
+aoj(happy.@past,he)

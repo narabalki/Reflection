@@ -1,0 +1,60 @@
+﻿
+public class MXPStrings {
+
+	public static string WORD_GRID_ICON_TAPPED = "Word grid icon tapped - Arena";
+	public static string WORD_IN_ARENA_DRAGGED= "Word in arena dragged";
+	public static string WORD_TAPPED_IN_ARENA = "Word tapped in arena";
+	public static string TRASH_CAN_TAPPED = "Trash can tapped";
+	public static string SETTINGS_TAPPED = "Settings tapped";
+	public static string SETTINGS_CHANGED = "Settings changed";
+	public static string SETTINGS_EXITED = "Settings exited";
+	public static string TAPPED_ON_FILTER = "Tapped on filter";
+	public static string TAPPED_ON_MODIFIER = "Tapped on modifier";
+	public static string WORD_ADD_TO_ARENA_FAILED = "Word add to arena failed";
+	public static string SESSION_STARTED = "Session started";
+	public static string SESSION_ENDED = "Session ended";
+	public static string WORD_REPLACED_IN_ARENA = "Word replaced in arena";
+	public static string PHRASE_IN_ARENA_DELETED = "Phrase in arena deleted";
+	public static string WORD_ADDED_TO_ARENA = "Word added to arena";
+	public static string GESTURE_FAILED = "Gesture failed";
+	public static string WORD_DRAGGED_FROM_WORD_PALETTE = "Word dragged from word palette";
+	public static string PLACEHOLDER_TAPPED = "Placeholder tapped";
+	public static string TOTAL_TIME_TAKEN = "Total time taken";
+	public static string WORD_DRAGGED = "Word dragged";
+	public static string DRAGGED_POSITION = "Dragged Position";
+	public static string WORD_TAPPED = "Word tapped";
+	public static string SOURCE = "Source";
+	public static string WORD = "Word";
+	public static string FILTER_TYPE = "Filter Type";
+	public static string PLACEHOLDER_RELATION = "Placeholder Relation";
+	public static string IS_IN_RELATION = "Is In-relation";
+	public static string OTHER_WORD_IN_RELATION = "Other word in relation";
+	public static string PHRASE_UNL_DELETED = "Phrase UNL deleted";
+	public static string ENGLISH_PHRASE = "English phrase";
+	public static string WORD_TEMP_EVENT_FOR_FUTURE = "Word temp event for future";
+	public static string TIME_DRAGGED = "Time dragged";
+	public static string ADDED_FROM = "Added From";
+	public static string POST_DRAG_PLACEHOLDERS = "Post Drag Placeholders";
+	public static string PRE_DRAG_PLACEHOLDERS = "Pre Drag Placeholders";
+	public static string DRAGGED_WORD = "Dragged Word";
+	public static string NEW_WORD = "New Word";
+	public static string OLD_WORD = "Old Word";
+	public static string XCOORDINATE = "XCoordinate";
+	public static string YCOORDINATE = "YCoordinate";
+	public static string PREVIOUS_SENTENCE = "Previous Sentence";
+	public static string PREVIOUS_UNL = "Previous UNL";
+	public static string SENTENCE_FORMED = "Sentence Formed";
+	public static string ACTIVE_UNL = "Active UNL";
+	public static string COMPLETED_LEVEL = "Competed Level";
+	public static string COMPLETED_INDEX = "Completed Index";
+	public static string GAME_PAUSED = "Game paused";
+	public static string GAME_RESTARTED = "Game restarted";
+	public static string TAPPED_HOME = "Tapped Home";
+	public static string GAME_UNPAUSED = "Game unpaused";
+	public static string NEXT_CHALLENGE_TAPPED = "Next challenge tapped";
+	public static string CHALLENGE_COMPLETED = "Challenge completed";
+	public static string ATTEMPTS = "Attempts";
+	public static string CHALLENGE_SENTENCE = "Challenge Sentence";
+	public static string STATUS = "Status";
+
+}

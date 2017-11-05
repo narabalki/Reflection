@@ -1,0 +1,124 @@
+[{
+    "num": 1,
+    "unl": "agt(2101835496,00.@1)",
+    "sent": "I go.",
+    "words": "00.@1, 2101835496",
+    "filter" : "",
+    "skill": "Present tense"
+},{
+    "num": 2,
+    "unl": "agt(2101835496,00.@1);to(2101835496,1009217230.@def)",
+    "sent": "I go to the beach.",
+    "words": "1009217230",
+    "filter" : ""
+},
+{
+    "num": 3,
+    "unl": "agt(2101835496,00.@3.@male);to(2101835496,1009217230.@def)",
+    "sent": "He goes to the beach.",
+    "words": "",
+    "filter" : ""
+},{
+    "num": 4,
+    "unl": "agt(2001824736,00.@1);obj(2001824736,1009217230.@def)",
+    "sent": "I like the beach.",
+    "words": "2001824736",
+    "filter" : ""
+},{
+    "num": 5,
+    "unl": "agt(2001824736,00.@3.@male);obj(2001824736,1002084071.@def)",
+    "sent": "He likes the dog.",
+    "words": "1002084071",
+    "filter" : ""
+},{
+    "num": 6,
+    "unl": "agt(2002604760,00.@proximal);obj(2002604760,1002084071.@indef)",
+    "sent": "This is a dog.",
+    "words": "00.@proximal, 2002604760",
+    "filter" : ""
+},{
+    "num": 7,
+    "unl": "agt(2001824736,00.@1);obj(2001824736,1007873807.@def)",
+    "sent": "I like the pizza.",
+    "words": "1007873807",
+    "filter" : ""
+},{
+    "num": 8,
+    "unl": "agt(2001775164,1002084071.@def);obj(2001775164,00.@1)",
+    "sent": "The dog loves me.",
+    "words": "2001775164",
+    "filter" : ""
+},{
+    "num": 9,
+    "unl": "agt(2002207206,00.@3.@male);obj(2002207206,1007873807.@indef);mod(1007873807.@indef,3101382086)",
+    "sent": "He buys a large pizza.",
+    "words": "2002207206,3101382086",
+    "filter" : ""
+},{
+    "num": 10,
+    "unl": "agt(2002604760,00.@proximal);obj(2002604760,1002084071.@indef);mod(1002084071.@indef,3001382086)",
+    "sent": "This is a big dog.",
+    "words": "3001382086",
+    "filter" : ""
+},{
+    "num": 11,
+    "unl": "agt(2101835496,1010287213.@def);to(2101835496,1004081281.@def);mod(1004081281.@def,3001640850)",
+    "sent": "The man goes to the new restaurant.",
+    "words": "1004081281,3001640850",
+    "filter" : ""
+},{
+    "num": 12,
+    "unl": "agt(2001775164,00.@3.@male);obj(2001775164,1010129825.@def);mod(1010129825.@def,3000220082)",
+    "sent": "He loves the pretty girl.",
+    "words": "1010129825,3000220082",
+    "filter" : ""
+},{
+    "num": 13,
+    "unl": "agt(2001168468,1002084071.@def);obj(2001168468,1000021265.@def);pos(1000021265.@def,1010129825)",
+    "sent": "The dog eats the girl's food.",
+    "words": "2001168468,1000021265",
+    "filter" : "",
+    "skill": "Possesive"
+},{
+    "num": 14,
+    "unl": "agt(2002604760,00.@proximal);obj(2002604760,1004401088);pos(1004401088,00.@1)",
+    "sent": "This is my phone.",
+    "words": "1004401088",
+    "filter" : ""
+},{
+    "num": 15,
+    "unl": "agt(2002604760,00.@distal);obj(2002604760,1004197391);pos(1004197391,00.@3.@male)",
+    "sent": "That is his shirt.",
+    "words": "00.@distal,1004197391",
+    "filter" : ""
+},{
+    "num": 16,
+    "unl": "agt(2101835496,00.@3.@female);to(2101835496,1008276720.@indef);mod(1008276720.@indef,3001676517)",
+    "sent": "She goes to a wonderful school.",
+    "words": "00.@3.@female,1008276720,3001676517",
+    "filter" : ""
+},{
+    "num": 17,
+    "unl": "agt(2002604760,00.@distal);obj(2002604760,1003544360.@def);mod(1003544360.@def,3001643620);pos(1003544360.@def,1010129825.@def)",
+    "sent": "That is the girl's old house.",
+    "words": "1010129825",
+    "filter" : ""
+},{
+    "num": 18,
+    "unl": "agt(2001168468,1002084071.@def);mod(1002084071.@def,3001391351);obj(2001168468,1007873807.@def);mod(1007873807.@def,3002040652);pos(1007873807.@def,1010285313.@def)",
+    "sent": "The small dog eats the boy's round pizza.",
+    "words": "1002084071,3002040652",
+    "filter" : ""
+},{
+    "num": 19,
+    "unl": "agt(2001825237,1010129825.@def);mod(1010129825.@def,3001646941);obj(2001825237,1003528901.@indef);mod(1003528901.@indef,3001391351)",
+    "sent": "The young girl wants her small plate.",
+    "words": "1003528901,3001646941",
+    "filter" : ""
+},{
+    "num": 20,
+    "unl": "agt(2001930874,1010287213.@def);obj(2001930874,1002958343);mod(1002958343,3000381097);pos(1002958343,00.@3.@male);to(2001930874,1004081281.@def);mod(1004081281.@def,3001640850)",
+    "sent": "The man drives his red car to the new restaurant.",
+    "words": "1002958343,3000381097",
+    "filter" : ""
+}]

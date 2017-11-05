@@ -1,0 +1,4 @@
+# Post-graph-rule attributes
+V if @infinitive @infinitiven @infinitiveg remove @past @future @ability @obligation @hypothesis @simple add @present
+J|A oneof @dneutral @neutral @more @most @very @slight
+

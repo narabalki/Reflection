@@ -1,0 +1,5 @@
+MN -> SG:0;PL:0>们
+MNa -> SG:0;PL:0
+MV -> B:0
+MJ -> B:0
+MA -> B:0

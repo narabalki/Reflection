@@ -1,0 +1,232 @@
+# Pronouns
+'00 (*)
+	# Question words
+	_wh = क्‍या
+		_Ragt = कौन
+		_Raoj = कौन
+		_Robj = क्‍या
+			_animate = किसको
+		_Rqua
+			_pl = कितने
+			_male = कितना
+			_female = कितनी
+		_Rbas = किससे
+		_Rben = किसको
+		_Rcag = किसके साथ
+		_Rins = किससे
+		_Rcnt = क्‍या
+		_Rcon = किस शर्त पर 
+		_Rdur = कब
+		_Rgol = किसको
+		_Rpur = क्यूँ
+		_Rman = कैसे 
+		_Rmet = कैसे
+		_Rmod = किस
+			_pl = किस
+			_male = कैसा
+			_female = कैसी
+		_Rplc = कहाँ
+		_Rpos = whose
+			_pl = किसके
+			_male = किसका
+			_female = किसकी
+		_Rrsn = क्यूँ
+		_Rtim = कब
+		_Rto = कहाँ
+		_Rfrm = कहाँ से
+	# Relative question words
+	_whr = जो
+		_Ragt = जो
+		_Raoj = जो
+		_Robj = जिसे
+			_animate = जिसे
+		_Rqua = जीतने
+		_Rben = जिसको
+		_Rcag = जिसके साथ
+		_Rins = जिससे
+		_Rcnt = जो
+		_Rcon = जिसपर
+		_Rdur = जब
+		_Rgol = जिसको
+		_Rpur = जिसके लिए
+		_Rman = जैसे
+		_Rmet = जैसे
+		_Rmod = जैसे
+		_Rplc = जहाँ
+		_Rpos = जिसके
+		_Rrsn = जिसके लिए
+		_Rtim = जब
+		_Rto = जहाँ
+		_Rfrm = जहाँ से
+	# Demonstrative pronouns
+	_Rplc
+		_distal = वहां
+		_proximal = यहां
+	_Rto
+		_distal = वहां
+		_proximal = यहां
+	# Personal pronouns
+	_1 = मै
+		_pl = हम
+	_2 = तुम
+		_pl  = आप
+		_nonhonorific = तू
+		_honorific = आप
+	_3 = वह
+		_pl = वो
+
+'-det (DP) = (-det)
+	# DP rules
+	_Rmod = (mod)
+	_pos = (pos)
+	_proximal = यह
+		_oblique = इस
+			_pl = इन
+		_pl = ये
+	_distal = वह
+		_oblique = उस
+			_pl = उन
+		_pl = वो
+	_def = (the)
+	_ddef = (the)
+		_pl = (the)
+		_singular
+			_one = (एक)
+	_indef = (एक)
+		_pl = (a)
+	
+	# Special vps
+'सकता (IP|CP) = सकता
+	_female = सकती
+'may (IP|CP) = may
+	_not = may not
+	_present = may
+		_not = may not
+'must (IP|CP) = must
+	_not = mustn't
+'है (*) = है
+	_3 = है
+		_pl = हैं
+	_2 = हो
+		_nonhonorific
+			_singular = है
+		_honorific
+			_singular = हैं
+	_1 = हूँ
+'रहा (*) = _
+	_imperfective
+		_pl = रहते
+		_male = रहता
+		_female = रहती
+			_honorific = रहतीं
+			_pl = रहतीं
+	_infinitive
+		_male = रहना
+			_pl = रहने
+		_female = रहनी
+			_honorific = रहनीं
+			_pl = रहनीं
+	_male = रहा
+		_pl = रहे
+	_female = रही
+		_pl = रहीं
+'था (*) = था
+	_3
+		_male = था
+			_pl = थे
+		_female = थी 
+			_honorific = थीं
+			_pl = थीं
+	_2 = थे
+		_singular
+			_nonhonorific
+				_male = था
+				_female = थी
+	_1
+		_singular
+			_male = था
+			_female = थी
+		_pl = थै
+'होगा (*)
+	_pl = होगे
+	_3
+		_male = होगा
+		_female = होगी
+			_honorific = होंगी
+	_2
+		_male = होगे
+			_honorific = होंगे
+			_nonhonorific = होगा
+		_female = होगी
+			_honorific = होंगी
+			_nonhonorific = होगी
+	_1
+		_male = हूंगा
+		_female = हूंगी
+'* (IP) = _
+'* (VP) = _
+	_imperative
+		_2
+			_honorific
+				_singular = [IMP-H]
+				_pl = [IMP-PLH]
+			_nonhonorific = [IMP-2SGNH]
+			_singular = [IMP-2SG]
+			_pl = [IMP-2PL]
+	_infinitive = [INF-MSG]
+		_singular
+			_male = [INF-MSG]
+			_female = [INF-FSG]
+		_pl = [INF-PL]
+	_imperfective
+		_singular
+			_2
+				_honorific = [IMPF-PL]
+			_male = [IMPF-MSG]
+			_female = [IMPF-FSG]
+				_honorific = [IMPF-FSGH]
+		_pl = [IMPF-PL]
+	_perfective
+		_singular
+			_male = [PER-MSG]
+			_female = [PER-FSG]
+				_honorific = [PER-FSGH]
+		_pl = [PER-PL]
+	_optative
+		_pl = [OPT-PLH]
+		_singular
+			_3 = [OPT-3SG]
+			_1 = [OPT-1SG]
+	_future
+		_pl = [FUT-PL]
+		_3
+			_male = [FUT-3MSG]
+			_female = [FUT-3FSG]
+				_honorific = [FUT-3FSGH]
+		_2
+			_male
+				_honorific = [FUT-2MSGH]
+				_nonhonorific = [FUT-2MSGNH]
+			_female
+				_nonhonorific = [FUT-2FSGNH]
+		_1
+			_male = [FUT-1MSG]
+			_female = [FUT-1FSG]	
+
+'* (NP) = [SG-D]
+	_oblique = [SG-O]
+		_pl = [PL-O]
+	_pl = [PL-D]
+
+'* (JP) = _
+	_oblique
+		_male = [MSG-O]
+			_pl = [MPL-O]
+		_female = [FSG-O]
+			_pl = [FPL-O]
+	_male = [MSG-D]
+		_pl = [MPL-D]
+	_female = [FSG-D]
+		_pl = [FPL-D]
+
+'* (*) = _

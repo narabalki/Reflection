@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="50 animals are there." xml:space="preserve">
+		<value />
+	</data>
+	<data name="about what" xml:space="preserve">
+		<value>sobre qué</value>
+	</data>
+	<data name="and" xml:space="preserve">
+		<value>y</value>
+	</data>
+	<data name="and what" xml:space="preserve">
+		<value>y qué</value>
+	</data>
+	<data name="Are they coming here to eat the meat with us?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Are we waiting for the birds to come?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Can you bring the fish?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Can you call the bear to help us?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Can you get me the salt and the pepper?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Can't you hear them?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Couldn't anyone have helped him?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Did he keep the berries in a box?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Did he play with the monkeys?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Do they know that the berries are here?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Do they take the berries and run away?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="do what" xml:space="preserve">
+		<value>hacer qué</value>
+	</data>
+	<data name="do what about" xml:space="preserve">
+		<value>hacer qué sobre</value>
+	</data>
+	<data name="do what at" xml:space="preserve">
+		<value>hacer qué</value>
+	</data>
+	<data name="do what because" xml:space="preserve">
+		<value>hacer qué</value>
+	</data>
+	<data name="do what for" xml:space="preserve">
+		<value>hacer qué para</value>
+	</data>
+	<data name="do what from" xml:space="preserve">
+		<value>hacer qué de</value>
+	</data>
+	<data name="do what in" xml:space="preserve">
+		<value>qué</value>
+	</data>
+	<data name="do what to" xml:space="preserve">
+		<value>hacer qué a</value>
+	</data>
+	<data name="do what using" xml:space="preserve">
+		<value>hacer qué usando</value>
+	</data>
+	<data name="do what with" xml:space="preserve">
+		<value>hacer qué con</value>
+	</data>
+	<data name="Do you also want some fish?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Do you give them the berries?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Do you have a berry for my friend?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Do you have warm blankets for me?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Do you know that the elephant has run away?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Do you see the animals that are playing in the snow?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Do you see the bear that is sleeping under the tree?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Does the bear want to eat berries?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Don't they come here every afternoon?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Don't you like the berries?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Don't you see that the tallest monkeys are riding on the elephant?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Everyone had gone to the forest to help the elephant soon." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Everyone must help him find the baby." xml:space="preserve">
+		<value />
+	</data>
+	<data name="for what purpose" xml:space="preserve">
+		<value>con qué fin</value>
+	</data>
+	<data name="for whom" xml:space="preserve">
+		<value>para quién</value>
+	</data>
+	<data name="from where" xml:space="preserve">
+		<value>de dónde</value>
+	</data>
+	<data name="Give me that fruit." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Had she eaten any food?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="He also fought with them." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He can make anything using fish." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He couldn't save his baby." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He didn't like the monkeys." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He didn't want to lose his baby." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He doesn't understand how they fell on his head." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He doesn't want to share them with his friends." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He got a new idea later." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He had gone running after the bad people." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He had tried looking for her." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He hid the berries under the ground." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He is always chasing the monkeys away." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He is closing his eyes and touching the berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He is picking them using his hands and putting them in his mouth." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He may come here first." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He met the monkeys in the forest." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He said that everyone must listen to him." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He talked to the birds." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He taught them the right things." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He thought that we must save the baby." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He was looking around for the berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He was running very fast." xml:space="preserve">
+		<value />
+	</data>
+	<data name="He will remember to wear a cap on his head tomorrow." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Hello, monkey" xml:space="preserve">
+		<value />
+	</data>
+	<data name="how" xml:space="preserve">
+		<value>cómo</value>
+	</data>
+	<data name="How are you doing?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="How is the day today?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="how long" xml:space="preserve">
+		<value>por cuánto tiempo</value>
+	</data>
+	<data name="how many" xml:space="preserve">
+		<value>cuánto</value>
+	</data>
+	<data name="How many animals are playing?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="I am doing good." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I am feeling cold and wet." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I am happy that she has become strong again." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I am looking at some berries for my friend." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I can hear the monkeys talking loudly." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I don't like coconuts." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I don't want to eat the berries now." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I felt sad because the tiger couldn't eat his favorite food." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I guess that they may come here to eat with us." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I have 2 friends." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I have been searching for the elephant." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I have the green berry and the yellow berry." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I learnt to cook better today." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I like that yellow berry." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I like the berry." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I like the monkey." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I like you." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I love big berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I love monkeys." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I love the clean water that is falling on our heads." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I think that they had come here yesterday." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I want a berry for my friend." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I want cold meat and vegetables." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I want the fruit." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I want this red fruit and that yellow berry." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I want to drink hot coffee." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I want to eat all the berries myself." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I want to eat some fish for breakfast." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I want to share something important with you." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I will cut some vegetables." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I will eat them later." xml:space="preserve">
+		<value />
+	</data>
+	<data name="It is raining here." xml:space="preserve">
+		<value />
+	</data>
+	<data name="It is very cold here." xml:space="preserve">
+		<value />
+	</data>
+	<data name="It isn't raining now and we are coming out." xml:space="preserve">
+		<value />
+	</data>
+	<data name="It was easy to find her because we had worked hard." xml:space="preserve">
+		<value />
+	</data>
+	<data name="It was the tastiest food." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Language" xml:space="preserve">
+		<value>Idioma</value>
+	</data>
+	<data name="Let us eat the berries together." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Let us go to the nearest river and teach the bear to fish." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Let us stand under the waterfall." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Many stones are under my feet." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Monkeys eat bananas." xml:space="preserve">
+		<value />
+	</data>
+	<data name="My favorite monkey is the most tired animal." xml:space="preserve">
+		<value />
+	</data>
+	<data name="My fish is the smallest fish." xml:space="preserve">
+		<value />
+	</data>
+	<data name="My friend is sitting and eating the berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="My friend is sitting on the ground and eating the berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="My friend loves berries and bananas." xml:space="preserve">
+		<value />
+	</data>
+	<data name="My friend loves that green fruit." xml:space="preserve">
+		<value />
+	</data>
+	<data name="My friends are in this island." xml:space="preserve">
+		<value />
+	</data>
+	<data name="on what basis" xml:space="preserve">
+		<value>en base a qué</value>
+	</data>
+	<data name="on what condition" xml:space="preserve">
+		<value>con qué condición</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>O</value>
+	</data>
+	<data name="part of" xml:space="preserve">
+		<value>parte de</value>
+	</data>
+	<data name="Play Sound Effects" xml:space="preserve">
+		<value>Efectos De Sonido</value>
+	</data>
+	<data name="Question" xml:space="preserve">
+		<value>Pregunta</value>
+	</data>
+	<data name="QuestionWordImage" xml:space="preserve">
+		<value>custom_images/ci_wh_question_spanish</value>
+	</data>
+	<data name="Send them more berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Settings" xml:space="preserve">
+		<value>Ajustes</value>
+	</data>
+	<data name="She couldn't eat much food." xml:space="preserve">
+		<value />
+	</data>
+	<data name="She had eaten nothing yesterday." xml:space="preserve">
+		<value />
+	</data>
+	<data name="She has been eating less food today." xml:space="preserve">
+		<value />
+	</data>
+	<data name="She has been sick and sleepy." xml:space="preserve">
+		<value />
+	</data>
+	<data name="She is feeling happy." xml:space="preserve">
+		<value />
+	</data>
+	<data name="She is feeling strong and happy now." xml:space="preserve">
+		<value />
+	</data>
+	<data name="She loves the berry." xml:space="preserve">
+		<value />
+	</data>
+	<data name="She must have been really scared." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Someone has taken her away when she was sleeping." xml:space="preserve">
+		<value />
+	</data>
+	<data name="That monkey has the longest tail." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The angry elephant had searched every place in the forest." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The animals will go to the beach tomorrow." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The apple is a red fruit." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The bad people have taken his baby to the forest." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The bear cooks the best fish." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The bear is catching the bigger fish." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The bear said that he must have the biggest piece." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The beautiful sun is shining now." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The berries are falling on his round head." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The berries are red and green and yellow." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The bird has the yellow berry." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The bird is singing softly." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The bird wants the red berry." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The birds are flying above the tree." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The birds are flying far and high." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The birds are flying in the sky." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The birds love the yummy berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The bored bird is most surprised." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The braver monkeys are playing with the tiger." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The elephant came here last year." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The elephant had heard her crying." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The elephant is standing below the tree." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The elephant liked the monkeys and stayed in the jungle." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The elephant said that the berries are very hard." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The fishes are swimming near us." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The food is almost ready now." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The monkeys agreed with him." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The monkeys are free again." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The monkeys are throwing the fruits down." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The monkeys may come later tonight." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The monkeys showed him the berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The monkeys sometimes did the wrong things." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The older monkeys are climbing the tree." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The other animals are searching for us." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The pretty bird and I are eating the wonderful berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The slow tiger couldn't catch the fast monkeys." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The tiger is chasing the little monkey." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The tiger is picking the berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The tiger is telling us funny stories." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The tiger may come here early tomorrow morning." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The water is flowing faster now." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The young men and boys were hiding the baby." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The younger monkeys are getting the food from the elephant." xml:space="preserve">
+		<value />
+	</data>
+	<data name="The younger monkeys are watching their friends." xml:space="preserve">
+		<value />
+	</data>
+	<data name="There are enough berries for all." xml:space="preserve">
+		<value />
+	</data>
+	<data name="These are my friends." xml:space="preserve">
+		<value />
+	</data>
+	<data name="These are the yummiest berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="These berries are awesome." xml:space="preserve">
+		<value />
+	</data>
+	<data name="These will become soft later." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They are busy today." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They are going to the park." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They are hungry now." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They are throwing the berries on the ground." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They aren't finding us." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They became friends recently." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They don't care about the yellow berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They don't have berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They have enough red berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They know that you have the fruits." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They like the tasty fruits." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They only want your blue berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They stopped because they are thirsty." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They want to go to the river next week." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They want to have fun because they are friends now." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They were moving very fast." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They will come back in the evening." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They will eat their favorite berries together." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They will listen to the stories about the monkeys." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They will play together and have fun." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They will stop playing soon." xml:space="preserve">
+		<value />
+	</data>
+	<data name="They won the game." xml:space="preserve">
+		<value />
+	</data>
+	<data name="This is a red fruit." xml:space="preserve">
+		<value />
+	</data>
+	<data name="This is the smallest fish." xml:space="preserve">
+		<value />
+	</data>
+	<data name="This red bird isn't my friend." xml:space="preserve">
+		<value />
+	</data>
+	<data name="This red fruit isn't a berry." xml:space="preserve">
+		<value />
+	</data>
+	<data name="This tastes yummy." xml:space="preserve">
+		<value />
+	</data>
+	<data name="This tiger loves bananas and meat." xml:space="preserve">
+		<value />
+	</data>
+	<data name="This yellow bird has a red berry." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Tigers live in the jungle." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Today is the hottest day." xml:space="preserve">
+		<value />
+	</data>
+	<data name="Today is warm and wonderful." xml:space="preserve">
+		<value />
+	</data>
+	<data name="[type=TEXTURE]UI_Filter_Noun_Definite" xml:space="preserve">
+		<value>125cd5ed6d3b94565b95d4f9a5a6b3d7</value>
+	</data>
+	<data name="[type=TEXTURE]UI_Filter_Noun_Definite_A" xml:space="preserve">
+		<value>c8352ea58638e4655aa9efa8c8695851</value>
+	</data>
+	<data name="[type=TEXTURE]UI_Filter_Noun_Definite_That" xml:space="preserve">
+		<value>0a2f8f2c694bf43e7ab1cd4bd58f14b9</value>
+	</data>
+	<data name="[type=TEXTURE]UI_Filter_Noun_Definite_The" xml:space="preserve">
+		<value>18a3c92e536d545ad93be2a3029d7a55</value>
+	</data>
+	<data name="[type=TEXTURE]UI_Filter_Noun_Definite_This" xml:space="preserve">
+		<value>8502f4bd49a6a43a6b4501dc5b1c5672</value>
+	</data>
+	<data name="Voice" xml:space="preserve">
+		<value>Voz</value>
+	</data>
+	<data name="Voice Speed" xml:space="preserve">
+		<value>Velocidad de la voz</value>
+	</data>
+	<data name="We are dancing and playing together." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We are excited and having fun." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We are feeling warm and dry." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We are going to another cave." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We are hiding in an old cave." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We are running to the cave fast." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We are walking outside." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We ate everything." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We can start cooking in the night." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We can't eat the same food everyday because we want something interesting." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We have been giving her extra fruits." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We have brought the little baby elephant back." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We must cook before the animals come." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We must cook something different tomorrow." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We must keep some food for the other animals." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We must make a great dinner tonight." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We need to help him." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We searched and found the baby." xml:space="preserve">
+		<value />
+	</data>
+	<data name="We will make more food next month and call them again." xml:space="preserve">
+		<value />
+	</data>
+	<data name="what" xml:space="preserve">
+		<value>qué</value>
+	</data>
+	<data name="What are the other animals doing?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="What can we cook?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="what is" xml:space="preserve">
+		<value>cuál es</value>
+	</data>
+	<data name="What is the tiger chasing?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="what kind" xml:space="preserve">
+		<value>qué tipo</value>
+	</data>
+	<data name="What will they do in the park?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="What will they do?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="when" xml:space="preserve">
+		<value>cuándo</value>
+	</data>
+	<data name="When will they come back?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="When will they stop playing?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="where" xml:space="preserve">
+		<value>cuándo</value>
+	</data>
+	<data name="Where are the birds?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Where have you been?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Where is everyone going ?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="where to" xml:space="preserve">
+		<value>a dónde</value>
+	</data>
+	<data name="Which animal is the most tired animal?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="who" xml:space="preserve">
+		<value>a quién</value>
+	</data>
+	<data name="Who will catch the biggest fish today?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="whom" xml:space="preserve">
+		<value>a quién</value>
+	</data>
+	<data name="whose" xml:space="preserve">
+		<value>de quién</value>
+	</data>
+	<data name="why" xml:space="preserve">
+		<value>por qué</value>
+	</data>
+	<data name="Why are the monkeys sitting on the tree?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Why did he become tired?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Why did they stop?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Why is the bear pulling the shortest monkey's tail?" xml:space="preserve">
+		<value />
+	</data>
+	<data name="with what" xml:space="preserve">
+		<value>con qué</value>
+	</data>
+	<data name="with whom" xml:space="preserve">
+		<value>con quién</value>
+	</data>
+	<data name="You have many bananas and berries." xml:space="preserve">
+		<value />
+	</data>
+	<data name="You may clean the dirty fish." xml:space="preserve">
+		<value />
+	</data>
+	<data name="I am looking at some berries for our friend." xml:space="preserve">
+		<value />
+	</data>
+</root>

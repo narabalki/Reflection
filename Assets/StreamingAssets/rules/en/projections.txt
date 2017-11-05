@@ -1,0 +1,96 @@
+V @J_man -> mark tree J_man
+V @continuous -> mark gerund, add IP be
+V @anterior -> mark participle, add IP have
+V @infinitive -> add IP to
+V @infinitiven -> add IP (to)
+V @infinitiveg -> mark gerund, add IP (to), mark tree infinitiveg
+V @simple -> add IP do
+V @ability -> add IP can
+V @hypothesis -> add IP may
+V @obligation -> add IP must
+V @subjunctive -> add IP would
+V @future -> add IP will
+V @past -> mark past
+V @present -> mark present
+V @not -> mark not
+V @interrogative -> mark tree interrogative
+V @quote -> mark tree quote
+V @before -> mark tree before
+V @after -> mark tree after
+N * -> add DP(XP;NP) -det
+N @not -> mark not
+N @singular -> mark singular, mark tree singular, mark comp singular # these boys, this boy
+N @pl -> mark pl, mark tree pl, mark comp pl
+N @def -> mark def
+N @indef -> mark indef
+N @animate -> mark animate, mark tree animate
+N @proper -> mark proper, mark tree proper
+N @common -> mark common, mark tree common
+N @generic -> mark generic, mark tree generic
+N @direction -> mark tree direction
+N @communication -> mark tree communication
+N @time -> mark tree time
+N @time_prep_none -> mark tree time_prep_none
+N @time_prep_on -> mark tree time_prep_on
+N @time_prep_in -> mark tree time_prep_in
+N @time_prep_during -> mark tree time_prep_during
+N @time_prep_at -> mark tree time_prep_at
+N @proximal -> mark proximal
+N @distal -> mark distal
+N @place -> mark place, mark tree place
+N @each -> mark tree each
+N @1 -> mark tree 1, mark 1
+N @2 -> mark tree 2, mark 2
+N @3 -> mark tree 3, mark 3
+N @male -> mark tree male, mark male
+N @female -> mark tree female, mark female
+N @neuter -> mark tree neuter, mark neuter
+N @ddef -> mark ddef
+N @pronoun -> mark tree pronoun
+N @any -> mark any
+N @some -> mark some
+N @every -> mark every
+N @no -> mark tree no
+N @wh -> mark tree wh, mark wh
+N @whr -> mark tree whr, mark whr
+N @in -> add PP in
+N @into -> add PP into
+N @within -> add PP within
+N @outside -> add PP outside
+N @at -> add PP at
+N @on -> add PP on
+N @upon -> add PP upon
+N @under -> add PP under
+N @below -> add PP below
+N @beneath -> add PP beneath
+N @over -> add PP over
+N @before -> add PP before
+N @after -> add PP after
+N @beside -> add PP beside
+N @behind -> add PP behind
+N @across -> add PP across
+N @near -> add PP near
+N @by -> add PP by
+N @during -> add PP during
+N @incomplete -> mark incomplete
+J @number -> add MP(JP) (number)
+J @neutral -> add MP(JP) (neutral)
+J @more -> mark more, add MP(JP) (more)
+J @most -> mark most, add MP(JP) (most)
+J @very -> add MP(JP) very
+J @left_adj -> mark tree left
+J @right_adj -> mark tree right
+J @adverb -> mark tree adverb
+A @neutral -> add MP(AP) (neutral)
+A @more -> mark more, add MP(AP) (more)
+A @most -> mark most, add MP(AP) (most)
+A @very -> add MP(AP) very
+A @left_adj -> mark tree left
+A @right_adj -> mark tree right
+Num @times_pl -> adjoin-right AP times, add AP (times)
+Num @times_si -> adjoin-right AP time, add AP (times)
+N @times_pl -> mark times
+N @commv -> mark tree commv
+N @commr -> mark tree commr
+V @commv -> mark tree commv
+V @commr -> mark tree commr

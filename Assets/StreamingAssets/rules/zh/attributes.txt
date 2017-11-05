@@ -1,0 +1,21 @@
+# All attributes
+#N attrs @1, @2, @3, @singular, @pl, @def, @indef, @nodef, @proper, @generic, @uncountable, @direction, @male, @female, @neuter, @animate, @communication, @time, @wh, @whr, @pronoun, @quote, @proximal, @distal
+#N|P attrs @in, @within, @outside, @on, @upon, @under, @below, @beneath, @over, @before, @beside, @behind, @across, @near, @by,@during
+N oneof @3 @2 @1
+N oneof @singular @pl
+N maxoneof @distal @proximal
+N oneof @ddef @def @indef @nodef @proper @generic
+N oneof @neuter @male @female
+N if @uncountable @direction @time @pronoun remove @ddef add @generic
+N if @male @female @1 @2 add @animate
+
+#V attrs @mark_inf_gerund, @mark_inf_none, @mark_agt_animate, @mark_obj_animate, @past, @future, @present, @anterior, @continuous, @simple, @ability,@hypothesis,@obligation, @not, @interrogative, @quote, @infinitiven, @infinitiveg, @infinitive
+V oneof @present @past @future
+V maxoneof @ability @hypothesis @obligation @future
+V if none @anterior @continuous @future @simple @ability @hypothesis @obligation add @simple
+V if @infinitive @infinitiven @infinitiveg remove @past @future @ability @obligation @hypothesis @simple add @present
+V if @not add @not_container
+
+#J|A attrs @number, @neutral, @more, @most, @very, @slight, @left_adj, @quote
+J|A oneof @neutral @more @most @very @slight
+J|A if @number remove @neutral @more @most @very @slight

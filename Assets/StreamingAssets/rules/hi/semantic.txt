@@ -1,0 +1,31 @@
+and(x,y)|x;[x=DP]|y;[y=DP] -> x(Ar4:a(H:h,C:y));[h=और,a=CP,x.@pl=!NULL,x.@singular=NULL,y.@copyrel=!NULL]|x #
+and(x,y)|x;[x=IP]|y;[y=IP] -> x(Ar4:a(H:h,Ar1:y));[h=और,a=CP]|x #
+and(x,y)|x;[x=MP]|y;[y=MP] -> x(Ar4:a(H:h,Ar1:y));[h=और,a=CP]|x #
+agt(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=XP] -> z(S:y)|x # substitute y in the spec of the first VP in the complement chain of the IP
+-obj(x,y)|x(C*:z(C*:p));[x=IP,z=VP,p=DP]|y;[y=XP] -> p(C:y)|x # substitute y in the (lowest) complement - works for tra and ditra, and for y=NP,JP and VP
+-obj(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=XP] -> z(C:y)|x # substitute y in the (lowest) complement - works for tra and ditra, and for y=NP,JP and VP
+-gol(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(Al1:y)|x
+-ben(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(Al1:y)|x
+pos(x,y)|x(C:z(C*:n));[x=PP,z=DP,n=NP]|y;[y=PP] -> z(S:y);[z._pos=!NULL]|x # (adhyapak ke) ladke ne
+pos(x,y)|x;[x=DP]|y;[y=PP] -> x(S:y);[x._pos=!NULL]|x # (adhyapak ka) ladka
+-to(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=XP] -> z(Al1:y)|x
+-frm(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(Al1:y)|x
+-frm(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Al1:c(H:h,C:y));[c=PP,h=से]|x
+plc(x,y)|x(C*:z);[x=DP,z=NP]|y;[y=PP] -> z(Al2:y)|x
+plc(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(Al2:y)|x
+plc(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Al2:c(H:h,C:y));[c=PP,h=मे]|x
+tim(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Ar3:y)|x #(x = He saw) (y = today) 
+mod(x,y)|x(C*:n);[x=DP,n=NP]|y;[y=MP] -> n(Al3:y)|x # achcha ladka
+mod(x,y)|x(C:z(C*:n));[x=PP,z=DP,n=NP]|y;[y=MP] -> n(Al3:y)|x # achche ladke ko
+man(x,y)|x(C*:n);[x=IP,n=VP]|y;[y=MP] -> n(Al3:y)|x #He sang most beautifully - Similar but distinct to mod
+cag(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(Al3:y)|x
+ins(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(Al3:y)|x
+rsn(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=IP] -> z(Al4:c(C:y));[c=PP]|x
+rsn(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Al4:c(H:h,C:y));[h=के लिए,c=PP]|x
+pur(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=IP] -> z(Al4:c(C:y));[c=PP]|x
+pur(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=DP] -> z(Al4:c(H:h,C:y));[h=के लिए,c=PP]|x
+-cnt(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=PP] -> z(C:a(H:h,C:y));[a=PP,h=बारे मे]|x
+-cnt(x,y)|x(C*:z);[x=IP,z=VP]|y;[y=IP] -> z(C:a(H:h,C:y));[a=PP,h=की]|x
+aoj(x,y)|x;[x=MP]|y;[y=DP] -> i(S:a,H:h1,C:z(S:y,C:x,H:h2));[i=IP,a=XP,h1=(do),z=VP,h2=है,z._present=!NULL]|i #He is happy
+qua(x,y)|x(C*:n);[x=DP,n=NP]|y;[y=NumP] -> n(Al1:y)|x # (left) Adjoin y to the noun phrase under the DP, outermost
+qua(x,y)|x(C*:n);[x=IP,n=VP]|y;[y=AP] -> n(Ar1:y)|x # 4 times

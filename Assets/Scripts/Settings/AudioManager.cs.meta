@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6fe662629728445968d7a7f9629b2632
+timeCreated: 1467372530
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - myAudioSource: {instanceID: 0}
+  - audio_test: {fileID: 8300000, guid: 23c1cad7e75904905a31820e27a3661d, type: 3}
+  - audio_WordDrag: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

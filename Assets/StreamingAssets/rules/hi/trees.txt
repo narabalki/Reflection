@@ -1,0 +1,12 @@
+V head-last
+N head-last
+J head-last
+A head-last
+P head-last
+C head-first
+& head-last
+I head-last
+D head-first
+M head-last
+X head-last
+Num head-first
