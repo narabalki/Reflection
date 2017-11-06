@@ -192,39 +192,6 @@ public class Settings : MonoBehaviour
 		language = newLanguage;
 		SaveSettings ();
 	}
-		
-	//public void SaveVoiceSpeed (float value) {
-	//	PlayerPrefs.SetFloat (VOICE_SPEED, value);
-	//}
-
-	public void RetriveVoiceSpeed ()
-	{
-		if (!PlayerPrefs.HasKey (VOICE_SPEED)) { 
-			SetDefaultVoiceSpeed ();
-		} else {
-			voiceSpeed = PlayerPrefs.GetInt (VOICE_SPEED.ToString ());
-
-			if (voiceSpeed == 0) {
-				SetDefaultVoiceSpeed ();
-			}
-		}
-	}
-
-	void SetDefaultVoiceSpeed ()
-	{
-		float speed = TTSPlugin.getDefaultRate (); //1
-		//speed = (speed / 0.6f);
-#if UNITY_EDITOR ||  UNITY_STANDALONE_OSX
-		voiceSpeed = (int)Math.Round ((speed - 65f) / 33, 0);
-		if (voiceSpeed < 90 || voiceSpeed > 300) {
-			voiceSpeed = (int)Math.Round ((180 - 65f) / 33, 0);
-		}
-		PlayerPrefs.SetInt (VOICE_SPEED, voiceSpeed);
-#elif UNITY_IPHONE || UNITY_TVOS
-		voiceSpeed = (int)Math.Round((speed / 0.6f)*6.0f, 0);
-		PlayerPrefs.SetInt (VOICE_SPEED, voiceSpeed);
-#endif
-	}
 
 	public void DeleteSettings ()
 	{
@@ -317,7 +284,6 @@ public class Settings : MonoBehaviour
 		questionLevel = GetDifficultyFromString (PlayerPrefs.GetString (QUESTION_LEVEL, questionLevel.ToString ()));
 
 		voice = GetVoiceFromString (PlayerPrefs.GetString (VOICE, voice.ToString ()));
-		RetriveVoiceSpeed ();
 		SaveSettingsToMixpanel ();
 	}
 
