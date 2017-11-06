@@ -315,6 +315,7 @@ public class Settings : MonoBehaviour
 		#if UNITY_EDITOR
 		//Debug.Log("Setting Language to "+GetCurrentLanguageCode()+" for native ui");
 		#elif UNITY_IOS
+		#if false
 		if (!PlayerPrefs.HasKey (LANGUAGE)) {
 			language = GetDeviceLanguage();
 		}
@@ -324,6 +325,7 @@ public class Settings : MonoBehaviour
 		else if (language == Language.Spanish) {
 			IOSUtilities.SetLanguage ("es");
 		}
+		#endif
 		#endif
 	}
 
@@ -418,9 +420,9 @@ public class Settings : MonoBehaviour
 
 		Language lang = Language.English;
 
-		#if UNITY_EDITOR || UNITY_ANDROID
+		#if UNITY_EDITOR || UNITY_ANDROID || UNITY_IOS
 		lang = Language.English;
-		#elif UNITY_IOS
+		#else
 		string langCode = IOSUtilities.GetDeviceLanguage ();
 		if(langCode.StartsWith("en"))
 			lang = Language.English;
