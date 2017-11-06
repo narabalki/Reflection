@@ -12,7 +12,7 @@ using System.Net;
 public class Mixpanel : MonoBehaviour
 {
 
-	#if UNITY_EDITOR || UNITY_ANDROID
+	#if UNITY_EDITOR || UNITY_ANDROID || UNITY_IOS
 	private static void mixpanelSetToken(string mixToken){
 		//Debug.Log ("Mixpanel token  " + mixToken);
 	}
@@ -34,7 +34,7 @@ public class Mixpanel : MonoBehaviour
 		//Debug.Log ("Mixpanel propsKeys  " + propsKeys);
 		//Debug.Log ("Mixpanel propsValues  " + propsValues);
 	}
-	#elif UNITY_IOS
+	#else
 	[DllImport ("__Internal")] private static extern void mixpanelSetToken(string mixToken);
 	[DllImport ("__Internal")] private static extern void mixpanelSetSuperProperties (string superKeys, string superValues);
 	[DllImport ("__Internal")] private static extern void mixpanelTrack (string eventName);
