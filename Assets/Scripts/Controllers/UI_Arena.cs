@@ -27,11 +27,12 @@ public class UI_Arena : MonoBehaviour
 
 	public void OnDRButton()
 	{
-		Application.LoadLevel(1);
+		SceneManager.LoadSceneAsync ("DRScene");
+		StartCoroutine(DailyReflection.FetchDR ());
 	}
 
 	public void OnBackButton()
 	{
-		Application.LoadLevel(0);
+		SceneManager.LoadSceneAsync ("HomeScene");
 	}
 }
