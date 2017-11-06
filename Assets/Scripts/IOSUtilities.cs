@@ -5,7 +5,7 @@ using AOT;
 
 public class IOSUtilities : MonoBehaviour
 {
-	#if UNITY_IOS || UNITY_TVOS
+	#if UNITY_TVOS
 	[DllImport("__Internal")]
 	private static extern string mGetClipBoardString();
 	
