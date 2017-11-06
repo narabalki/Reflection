@@ -250,7 +250,8 @@ public class Settings : MonoBehaviour
 		SaveSettingsToMixpanel ();
 
 		#if UNITY_EDITOR
-		#elif UNITY_IOS || UNITY_TVOS
+		#elif UNITY_IOS 
+		#elif UNITY_TVOS
 		IOSUtilities.SaveSettingsToCustomFolder ();
 		#endif
 	}
