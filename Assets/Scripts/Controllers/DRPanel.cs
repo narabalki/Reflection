@@ -23,12 +23,14 @@ public class DRPanel : MonoBehaviour {
 	}
 
 	public void InitDRPanel () {
-		currentDR = DRCache.instance.GetLatestDR ();
-		drPanelObject.SetActive (false);
-		title.text = currentDR.title;
-		date.text = currentDR.date;
-		message.text = currentDR.message;
-		author.text = currentDR.author;
-		drPanelObject.SetActive (true);
+		if (DRCache.instance != null) {
+			currentDR = DRCache.instance.GetLatestDR ();
+			drPanelObject.SetActive (false);
+			title.text = currentDR.title;
+			date.text = currentDR.date;
+			message.text = currentDR.message;
+			author.text = currentDR.author;
+			drPanelObject.SetActive (true);
+		}
 	}
 }
