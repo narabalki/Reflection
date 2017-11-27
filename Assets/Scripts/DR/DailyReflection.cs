@@ -6,6 +6,12 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 
+public class DRFetchContext
+{
+	public DailyReflection dr;
+	public System.Object context;
+}
+
 public class DailyReflection
 {
 	public string title;
@@ -96,13 +102,15 @@ public class DailyReflection
 		return download;
 	}
 
-	public static IEnumerator FetchDR(string fetchDate="", string lang="EN", Action<DailyReflection> callback=null) {
+	public static IEnumerator FetchDR(string fetchDate="", string lang="en", Action<DRFetchContext> callback=null, DRFetchContext ctxt=null) {
 		
 		WWW download = StartDownload (fetchDate, lang);
 		yield return download;
 		DailyReflection dr = new DailyReflection (lang, fetchDate, download.text, download.error);
 		dr.DebugLogDR ();
-		if (callback != null)
-			callback (dr);
+		if (callback != null) {
+			ctxt.dr = dr;
+			callback (ctxt);
+		}
 	}
 }

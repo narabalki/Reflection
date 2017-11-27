@@ -7,9 +7,11 @@ public class DR_Arena : MonoBehaviour {
 	public static DR_Arena instance;
 	public static string scene = ScenesEnum.DRScene.ToString ();
 	public DRPanel drPanel;
+	public DRDatePicker datePicker;
 
 	void Awake () {
 		drPanel.InitDRPanel ();
+		datePicker.Initialize (drPanel);
 	}
 
 	// Use this for initialization
