@@ -9,7 +9,7 @@ public class Home_Arena : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		ExtensionMethods.InitDataPaths ();
 	}
 
 	// Update is called once per frame

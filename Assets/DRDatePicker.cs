@@ -66,6 +66,6 @@ public class DRDatePicker : MonoBehaviour {
 
 	public void OnFetchButton() {
 		if (DRCache.instance != null)
-			DRCache.instance.FetchDROfDate (GetCurrentDateTimeString (), "en", drPanel.UpdateDRPanel);
+			DRCache.instance.FetchDROfDate ("en", GetCurrentDateTimeString (), drPanel.UpdateDRPanel);
 	}
 }

@@ -1,44 +1,52 @@
 ﻿using System;
+using MiniJSON;
+using System.IO;
 using UnityEngine;
-using System.Collections;
+using System.Collections;	
 using System.Collections.Generic;
 
 public class DRCache : MonoBehaviour
 {
 	public static List<string> DRLanguages = new List<string> { "en" };
 	public static DRCache instance;
-	public Dictionary<string, List<DailyReflection>> drList;
 	public Dictionary<string, Dictionary<string, DailyReflection>> drMap; 
-	private int recentDays = 1;
+	public Dictionary<string, Dictionary<string, string>> drDisplayDateMap;
 
 	public void InitDRMap () {
-		drMap = new Dictionary<string, Dictionary<string, DailyReflection>> ();
-		drList = new Dictionary<string, List<DailyReflection>> ();
+		drMap = new Dictionary<string, Dictionary<string, DailyReflection>> (); 
+		drDisplayDateMap = new Dictionary<string, Dictionary<string, string>> ();
+	}
+
+	private void AddEntriesToDRMap(string lang, Dictionary<string, DailyReflection> _drMap) {
+
+		foreach (string date in _drMap.Keys)
+			if (!drMap [lang].ContainsKey (date))
+				drMap [lang] [date] = _drMap [date];
+	}
+
+	private void AddEntriesToDRDisplayDateMap(string lang, Dictionary<string, string> _drDisplayDateMap) {
+
+		foreach (string date in _drDisplayDateMap.Keys)
+			if (!drDisplayDateMap [lang].ContainsKey (date))
+				drDisplayDateMap [lang] [date] = _drDisplayDateMap [date];
+	}
+
+	public void OnReceivedDRs (DRFetchContext ctxt) {
+		if (!drMap.ContainsKey (ctxt.lang))
+			drMap [ctxt.lang] = ctxt.drMap;
+		else
+			AddEntriesToDRMap (ctxt.lang, ctxt.drMap);
+		if (!drDisplayDateMap.ContainsKey (ctxt.lang))
+			drDisplayDateMap [ctxt.lang] = ctxt.drDisplayDateMap;
+		else
+			AddEntriesToDRDisplayDateMap (ctxt.lang, ctxt.drDisplayDateMap);
+	}
+
+	public void FetchInitialDRs() {
+
 		foreach (string lang in DRLanguages) {
-			drMap [lang] = new Dictionary<string, DailyReflection> ();
-			drList [lang] = new List<DailyReflection> ();
-		}
-	}
-
-	public void CacheDROfDate(string date, string lang, Action<DRFetchContext> callback, System.Object context=null) {
-		DRFetchContext ctxt = new DRFetchContext ();
-		ctxt.context = context;
-		StartCoroutine (DailyReflection.FetchDR (date, lang, callback, ctxt));
-	}
-
-	public void OnReceivedDR (DRFetchContext ctxt) {
-		DailyReflection dr = ctxt.dr;
-		if (String.IsNullOrEmpty (dr.error)) {
-			drMap [dr.language] [dr.date] = dr;
-			drList [dr.language].Add (dr);
-		}
-	}
-
-	private void CacheRecentDRs () {
-		foreach (string lang in DRLanguages) {
-			for (int i = 0; i < recentDays; i++) {
-				CacheDROfDate (DateTime.Today.ToString ("yyyy-MM-dd"), lang, OnReceivedDR);
-			}
+			DRFetcher drFetcher = new DRFetcher (this, lang, OnReceivedDRs);
+			drFetcher.BeginFetching ();
 		}
 	}
 
@@ -57,44 +65,53 @@ public class DRCache : MonoBehaviour
 
 	void Start () {
 		InitDRMap ();
-		CacheRecentDRs ();
+		FetchInitialDRs ();
 	}
 
-	public DailyReflection GetLatestDR(string lang="e") {
+	private DailyReflection GetDROfDisplayDate(string lang, string date) {
+		
 		DailyReflection dr = null;
-		if (drList.ContainsKey (lang)) {
-			if (drList [lang].Count > 0)
-				dr = drList [lang] [0];
-		}
+		if (drMap != null && drMap.ContainsKey (lang) && drMap [lang].ContainsKey (date))
+			dr = drMap [lang] [date];
 		return dr;
 	}
 
-	public DailyReflection GetDROfDate(string fetchDate = "", string lang="en") {
+	public DailyReflection GetDROfDate(string lang, string fetchDate) {
+		
 		DailyReflection dr = null;
-		if (fetchDate == "")
-			fetchDate = DateTime.Today.ToString ("yyyy-MM-dd");
-		if (drList.ContainsKey (lang)) {
-			if (drList [lang].Count > 0)
-				dr = drList [lang] [0];
-		}
+		if (drDisplayDateMap != null && drDisplayDateMap.ContainsKey (lang) && drDisplayDateMap [lang].ContainsKey (fetchDate))
+			dr = GetDROfDisplayDate (lang, drDisplayDateMap [lang] [fetchDate]);
 		return dr;
+	}
+
+	public DailyReflection GetLatestDR(string lang) {
+		
+		return GetDROfDate (lang, DateTime.Today.ToString ("yyyy-MM-dd"));
 	}
 
 	public void OnReceivedDROfDate (DRFetchContext ctxt) {
-		OnReceivedDR (ctxt);
-		if (ctxt.context != null) {
-			Action<DailyReflection> callback = (Action<DailyReflection>)ctxt.context;
-			callback (ctxt.dr);
+		OnReceivedDRs (ctxt);
+		if (ctxt.ctxt != null) {
+			Action<DailyReflection> callback = (Action<DailyReflection>)ctxt.ctxt;
+			DailyReflection dr = null;
+			if (ctxt.drMap.Keys.Count > 0) {
+				string date = (new List<string> (ctxt.drMap.Keys)) [0];
+				dr = ctxt.drMap [date];
+			} 
+			if (callback != null)
+				callback (dr);
 		}
 	}
 
-	public void FetchDROfDate(string fetchDate="", string lang="en", Action<DailyReflection> callback=null) {
+	public void FetchDROfDate(string lang, string fetchDate, Action<DailyReflection> callback) {
 		DailyReflection dr = GetDROfDate (fetchDate, lang);
-		if (dr == null) {
+		if (dr != null) {
 			if (callback != null)
 				callback (dr);
 		} else {
-			CacheDROfDate (fetchDate, lang, OnReceivedDROfDate, (object)callback);
+			DRFetcher drFetcher = new DRFetcher (this, lang, OnReceivedDROfDate);
+			drFetcher.InitContext ((object)callback);
+			drFetcher.FetchFromServer (fetchDate);
 		}
 	}
 }

@@ -1,8 +1,0 @@
-moveDPfromVPtoIP
-moveDPfromIPtoIP
-moveDPofDTRAtoS
-copyAgreementStoH
-copyPosToNP
-createCP_bare
-removeDo
-copyRelForConjunction

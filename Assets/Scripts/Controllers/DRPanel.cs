@@ -8,7 +8,7 @@ public class DRPanel : MonoBehaviour {
 	public Text title;
 	public Text date;
 	public Text message;
-	public Text author;
+	public Text footnote;
 
 	public DailyReflection currentDR;
 
@@ -28,7 +28,7 @@ public class DRPanel : MonoBehaviour {
 		title.text = currentDR.title;
 		date.text = currentDR.date;
 		message.text = currentDR.message;
-		author.text = currentDR.author;
+		footnote.text = currentDR.footnote;
 		drPanelObject.SetActive (true);
 	}
 
