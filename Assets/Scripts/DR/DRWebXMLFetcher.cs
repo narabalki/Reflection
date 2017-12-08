@@ -57,7 +57,7 @@ public static class DRWebXMLFetcher
 		footnote = GetBetween (html, footnote_tag, footnote_end_tag).Trim ();
 		author = GetBetween (html, author_tag, author_end_tag).Trim ();
 
-		return new DailyReflection (lang, fetchDate, title, message, footnote, author);
+		return new DailyReflection (lang, fetchDate, title, message, footnote, author, new List<string> ());
 	}
 
 	private static string GetDRURL(string fetchDate, string lang) {

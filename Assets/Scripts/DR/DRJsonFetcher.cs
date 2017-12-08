@@ -18,10 +18,24 @@ public static class DRJsonFetcher
 		return value;
 	}
 
+	private static List<string> TryGetListValue(Dictionary<string, object> dictObj, string key) {
+
+		List<string> value = new List<string> ();
+		List<object> objlist = null;
+		if (dictObj.ContainsKey (key)) {
+			objlist = (List<object>)dictObj [key];
+			foreach (object obj in objlist) {
+				value.Add ((string)obj);
+			}
+		}
+		return value;
+	}
+
 	private static DailyReflection ExtractDR(object dictObj) {
 
 		Dictionary<string, object> dict = (Dictionary<string, object>)dictObj;
 		string date, title, message, footnote, author, lang;
+		List<string> tags = null;
 
 		author = TryGetValue (dict, "author");
 		lang = TryGetValue (dict, "language").ToLower ();
@@ -29,8 +43,12 @@ public static class DRJsonFetcher
 		message = TryGetValue (dict, "content");
 		date = TryGetValue (dict, "display-dt");
 		title = TryGetValue (dict, "title");
-
-		return new DailyReflection (lang, date, title, message, footnote, author);
+		if (date.Equals ("2007-07-27")) {
+			tags = new List<string> ();
+		}
+		tags = TryGetListValue (dict, "tags");
+		
+		return new DailyReflection (lang, date, title, message, footnote, author, tags);
 	}
 
 

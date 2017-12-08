@@ -16,19 +16,18 @@ public class DailyReflection
 	public string footnote;
 	public string author;
 	public string language;
+	public List<string> tags;
 
-
-	public DailyReflection(string lang, string fetchDate, string _title, string _message, string _footnote, string _author) {
+	public DailyReflection(string lang, string fetchDate, string _title, string _message, string _footnote, string _author, List<string> _tags) {
 		
 		language = lang;
 		date = fetchDate;
 		title = _title;
 		message = _message;
 		footnote = _footnote;
-		author = _author;
+		author = _author.Trim ();
+		tags = _tags;
 	}
-
-
 
 	public void DebugLogDR() {
 		

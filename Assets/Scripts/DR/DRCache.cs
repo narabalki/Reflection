@@ -104,7 +104,7 @@ public class DRCache : MonoBehaviour
 	}
 
 	public void FetchDROfDate(string lang, string fetchDate, Action<DailyReflection> callback) {
-		DailyReflection dr = GetDROfDate (fetchDate, lang);
+		DailyReflection dr = GetDROfDate (lang, fetchDate);
 		if (dr != null) {
 			if (callback != null)
 				callback (dr);

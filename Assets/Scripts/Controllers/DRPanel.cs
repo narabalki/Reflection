@@ -10,6 +10,8 @@ public class DRPanel : MonoBehaviour {
 	public Text message;
 	public Text footnote;
 
+	public DRTagsPanel tagsPanel = null;
+
 	public DailyReflection currentDR;
 
 	// Use this for initialization
@@ -29,10 +31,12 @@ public class DRPanel : MonoBehaviour {
 		date.text = currentDR.date;
 		message.text = currentDR.message;
 		footnote.text = currentDR.footnote;
+		tagsPanel.UpdateDRTagsPanel (dr);
 		drPanelObject.SetActive (true);
 	}
 
-	public void InitDRPanel () {
+	public void InitDRPanel (DRTagsPanel _tagsPanel) {
+		tagsPanel = _tagsPanel;
 		if (DRCache.instance != null) {
 			UpdateDRPanel (DRCache.instance.GetLatestDR ("en"));
 		}
