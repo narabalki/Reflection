@@ -2,8 +2,9 @@
 
 public enum ScenesEnum
 {
-		HomeScene,
-		DRScene
+	HomeScene,
+	DRScene,
+	DRSearchResultsScene
 }
 
 

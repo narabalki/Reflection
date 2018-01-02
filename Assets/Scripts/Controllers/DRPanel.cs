@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DRPanel : MonoBehaviour {
+	
 	public GameObject drPanelObject;
 	public Text title;
 	public Text date;

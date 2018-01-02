@@ -26,3 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DRScene.unity
     guid: 3b17678976b4040129b39de33e02b71f
+  - enabled: 1
+    path: Assets/Scenes/DRSearchResultsScene.unity
+    guid: b410fbafe0263470387379af33aaeac2

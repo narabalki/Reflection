@@ -114,5 +114,20 @@ public class DRCache : MonoBehaviour
 			drFetcher.FetchFromServer (fetchDate);
 		}
 	}
+
+	public List<DailyReflection> FetchSomeDRs(string lang, int maxCount=20) {
+
+		List<DailyReflection> drList = new List<DailyReflection> ();
+		if (drMap.ContainsKey (lang)) {
+		
+			foreach (string key in new List<string> (drMap[lang].Keys)) {
+
+				drList.Add (drMap [lang] [key]);
+				if (drList.Count >= maxCount)
+					break;
+			}
+		}
+		return drList;
+	}
 }
 

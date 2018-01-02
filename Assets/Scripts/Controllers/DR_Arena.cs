@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
 public class DR_Arena : MonoBehaviour {
+	
 	public static DR_Arena instance;
 	public static string scene = ScenesEnum.DRScene.ToString ();
 	public DRPanel drPanel;
@@ -11,6 +12,7 @@ public class DR_Arena : MonoBehaviour {
 	public DRTagsPanel tagsPanel;
 
 	void Awake () {
+		
 		drPanel.InitDRPanel (tagsPanel);
 		datePicker.Initialize (drPanel);
 	}
@@ -24,6 +26,7 @@ public class DR_Arena : MonoBehaviour {
 	}
 
 	public void OnBackButton() {
+		
 		SceneManager.LoadSceneAsync (Home_Arena.scene);
 	}
 }

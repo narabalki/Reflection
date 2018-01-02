@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class DRTimeListController : MonoBehaviour {
+	
 	public GameObject ContentPanel;
 	public GameObject DRTimeListItemPrefab;
 	public VerticalScrollSnap scrollRect;
@@ -13,6 +14,7 @@ public class DRTimeListController : MonoBehaviour {
 	public int currentPage = 0;
 
 	private int GetPageOfDuration(string duration) {
+		
 		int page = 0;
 		for (int i = 0; i < durations.Count; i++) {
 			if (durations [i].Equals (duration)) {
@@ -24,6 +26,7 @@ public class DRTimeListController : MonoBehaviour {
 	}
 
 	public void InitScrollView(List<string> periods, string currentPeriod) {
+		
 		scrollRect = GetComponent<VerticalScrollSnap>();
 		periods.Reverse ();
 		durations = periods;
@@ -43,11 +46,13 @@ public class DRTimeListController : MonoBehaviour {
 	}
 
 	public void OnTimeChanged(int page) {
+		
 		Debug.Log ("OnTimeChanged: " + name + ", page:" + page + ", object:" + durations [page]);
 		currentPage = page;
 	}
 
 	public string GetCurrentDuration() {
+		
 		if (durations == null)
 			return "";
 		return durations [currentPage];
@@ -55,6 +60,5 @@ public class DRTimeListController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
 	}
 }

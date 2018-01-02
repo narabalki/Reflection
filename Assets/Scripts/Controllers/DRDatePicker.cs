@@ -37,6 +37,7 @@ public class DRDatePicker : MonoBehaviour {
 	}
 
 	public void Initialize(DRPanel _drPanel) {
+		
 		drPanel = _drPanel;
 		drYearController.InitScrollView (Years, DateTime.Today.Year.ToString ());
 		drMonthController.InitScrollView (Months, "Nov");
