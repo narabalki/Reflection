@@ -115,15 +115,12 @@ public class DRCache : MonoBehaviour
 		}
 	}
 
-	public List<DailyReflection> FetchSomeDRs(string lang, int maxCount=20) {
-
+	public static List<DailyReflection> FetchSomeDRs(string lang, int maxCount=100) {
 		List<DailyReflection> drList = new List<DailyReflection> ();
-		if (drMap.ContainsKey (lang)) {
-		
-			foreach (string key in new List<string> (drMap[lang].Keys)) {
-
-				drList.Add (drMap [lang] [key]);
-				if (drList.Count >= maxCount)
+		if (DRCache.instance != null && DRCache.instance.drMap.ContainsKey (lang)) {
+			foreach (string key in new List<string> (DRCache.instance.drMap[lang].Keys)) {
+				drList.Add (DRCache.instance.drMap [lang] [key]);
+				if (maxCount > 0 && drList.Count >= maxCount)
 					break;
 			}
 		}

@@ -11,12 +11,7 @@ public class DR_SearchResult_Arena : MonoBehaviour {
 	void Awake () {
 
 		searchResultList = searchResults.GetComponent<DRSearchResultListController> ();
-		List<DailyReflection> drlist;
-		if (DRCache.instance != null) {
-			drlist = DRCache.instance.FetchSomeDRs ("en");
-		} else {
-			drlist = new List<DailyReflection> ();
-		}
+		List<DailyReflection> drlist = DRCache.FetchSomeDRs ("en");
 		searchResultList.InitScrollView (drlist);
 	}
 

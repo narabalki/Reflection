@@ -34,6 +34,6 @@ public class Home_Arena : MonoBehaviour {
 
 	public void OnDRButton() {
 		
-		SceneManager.LoadSceneAsync (DR_Arena.scene);
+		SceneManager.LoadSceneAsync (DRListViewController.scene);
 	}
 }
