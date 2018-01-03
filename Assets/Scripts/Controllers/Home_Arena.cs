@@ -18,7 +18,7 @@ public class Home_Arena : MonoBehaviour {
 
 	public void OnSearchButton() {
 		
-		SceneManager.LoadSceneAsync (DR_SearchResult_Arena.scene);
+		SceneManager.LoadSceneAsync (DRListViewController.scene);
 	}
 
 	// Update is called once per frame

@@ -4,7 +4,8 @@ public enum ScenesEnum
 {
 	HomeScene,
 	DRScene,
-	DRSearchResultsScene
+	DRSearchResultsScene,
+	DRListViewScene
 }
 
 
