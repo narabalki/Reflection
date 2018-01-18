@@ -43,7 +43,7 @@ public class DRListViewController : MonoBehaviour {
 			img.color = GetActiveImageColor ();
 		if (text != null) {
 			text.color = GetActiveTextColor ();
-			text.fontStyle = FontStyle.Bold;
+			text.fontStyle = FontStyle.Normal;
 		}
 	}
 
