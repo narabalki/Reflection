@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class DRListViewController : MonoBehaviour {
 
@@ -19,11 +20,11 @@ public class DRListViewController : MonoBehaviour {
 	private bool allowEnter;
 
 	private Color GetInactiveImageColor() {
-		return new Color32 (96, 131, 197, 100);
+		return new Color32 (225, 40, 113, 255);
 	}
 
 	private Color GetActiveImageColor() {
-		return new Color32 (0, 48, 139, 100);
+		return new Color32 (193, 9, 81, 255);
 	}
 
 	private Color GetInactiveTextColor() {
@@ -31,12 +32,13 @@ public class DRListViewController : MonoBehaviour {
 	}
 
 	private Color GetActiveTextColor() {
-		return new Color32 (50, 50, 50, 255);
+		return new Color32 (200, 201, 202, 255);
 	}
 
 	private void MakeActiveColors(Image img=null, Text text=null) {
 		datesImage.color = authorsImage.color = topicsImage.color = favoriteImage.color = GetInactiveImageColor ();
 		datesText.color = authorsText.color = topicsText.color = favoriteText.color = GetInactiveTextColor();
+		datesText.fontStyle = authorsText.fontStyle = topicsText.fontStyle = favoriteText.fontStyle = FontStyle.Normal;
 		if (img != null)
 			img.color = GetActiveImageColor ();
 		if (text != null) {
@@ -97,5 +99,9 @@ public class DRListViewController : MonoBehaviour {
 		} else {
 			allowEnter = searchInputField.isFocused;
 		}
+	}
+
+	public void OnBackButton() {
+		SceneManager.LoadSceneAsync (Home_Arena.scene);
 	}
 }

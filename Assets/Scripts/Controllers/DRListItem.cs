@@ -10,6 +10,7 @@ public class DRListItem : MonoBehaviour
 	public Text Title1;
 	public Text Date1;
 	public Text Message1;
+	public Text Footnote1;
 
 	public DRListItem () {
 	}
@@ -20,6 +21,7 @@ public class DRListItem : MonoBehaviour
 			Title1.text = dr1.title;
 			Date1.text = dr1.date;
 			Message1.text = dr1.message;
+			Footnote1.text = dr1.footnote;
 			panel1.SetActive (true);
 		} else {
 			panel1.SetActive (false);
